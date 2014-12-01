@@ -1,0 +1,23 @@
+#######################################
+#######################################
+## USER TIMING CLOSURE CONSTRAINTS
+#######################################
+#######################################
+
+## GTX Reset:
+
+NET "usr/gtx_txreset_from_gbt_link_rst"                     MAXDELAY = 3 ns;
+NET "usr/gtx_rxreset_from_gbt_link_rst"                     MAXDELAY = 3 ns; 
+
+## GTX Clock:
+
+NET "usr/fmc1_quad/gtx_txoutclk"                            TNM_NET = usr/fmc1_quad/gtx_txoutclk;
+TIMESPEC TS_usr_fmc1_quad_gtx_txoutclk =                    PERIOD "usr/fmc1_quad/gtx_txoutclk" TS_cdce_out3_p HIGH 50%;
+NET "usr/fmc1_quad/core_gen[1].gtx/gtx0_rxrecclk_i"         TNM_NET = usr/fmc1_quad/core_gen[1].gtx/gtx0_rxrecclk_i;
+TIMESPEC TS_usr_fmc1_quad_core_gen_1__gtx_gtx0_rxrecclk_i = PERIOD "usr/fmc1_quad/core_gen[1].gtx/gtx0_rxrecclk_i" 4.1667 ns HIGH 50%;
+
+NET "usr/sfp_quad/gtx_txoutclk"                             TNM_NET = usr/sfp_quad/gtx_txoutclk;
+TIMESPEC TS_usr_sfp_quad_gtx_txoutclk =                     PERIOD "usr/sfp_quad/gtx_txoutclk" TS_cdce_out0_p HIGH 50%;
+NET "usr/sfp_quad/core_gen[1].gtx/gtx0_rxrecclk_i"          TNM_NET = usr/sfp_quad/core_gen[1].gtx/gtx0_rxrecclk_i;
+TIMESPEC TS_usr_sfp_quad_core_gen_1__gtx_gtx0_rxrecclk_i =  PERIOD "usr/sfp_quad/core_gen[1].gtx/gtx0_rxrecclk_i" 4.1667 ns HIGH 50%;
+

@@ -1,0 +1,18 @@
+# Reading C:/modeltech_6.5c/tcl/vsim/pref.tcl 
+# Updating type .v file registration. 
+# Updating type .vhd file registration. 
+# Updating type .wlf file registration. 
+# Updating type .mpf file registration. 
+# //  ModelSim SE 6.5c Aug 27 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# ** Error: (vish-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# OpenFile {C:/cms_upgrate_mjs/GBT-FPGA Starter Kit/Starter_kit_v1.0.0/Starter_kit_v1.0.0/sources/bert/Word_Generator.vhd} 
