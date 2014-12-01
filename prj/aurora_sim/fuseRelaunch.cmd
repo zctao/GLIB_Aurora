@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb_isim_beh.exe" -prj "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb_beh.prj" "work.FrameGenChk_tb" "work.glbl" 

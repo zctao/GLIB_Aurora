@@ -1,0 +1,3 @@
+vhdtdtfi -lib work {C:/Users/LabView User/Documents/ztaotest/Aurora/zttest/prj/cornell_v0_tao2/Data_IO.v} -lang verilog -prj cornell_v0 -o Data_FSM.spl -module Data_FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex6 Data_FSM.spl {C:/Users/LabView User/Documents/ztaotest/Aurora/zttest/prj/cornell_v0_tao2/Data_FSM.sym} 
+vhdtdtfi -lang verilog -prj cornell_v0 -o "C:/Users/LabView User/Documents/ztaotest/Aurora/zttest/prj/cornell_v0_tao2/Data_FSM.vhi" -lib work "C:/Users/LabView User/Documents/ztaotest/Aurora/zttest/prj/cornell_v0_tao2//Data_IO.v" -module Data_FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

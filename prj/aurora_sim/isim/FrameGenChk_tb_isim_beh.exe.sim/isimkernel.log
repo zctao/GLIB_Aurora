@@ -1,0 +1,28 @@
+Command line:
+   FrameGenChk_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53723
+
+Wed Nov 19 15:33:18 2014
+
+
+ Elaboration Time: 2.90162 sec
+
+ Current Memory Usage: 1478.66 Meg
+
+ Total Signals          : 133184
+ Total Nets             : 86643
+ Total Signal Drivers   : 88355
+ Total Blocks           : 20346
+ Total Primitive Blocks : 13002
+ Total Processes        : 92520
+ Total Traceable Variables  : 37816
+ Total Scalar Nets and Variables : 2160590
+
+ Total Simulation Time: 43.1967 sec
+
+ Current Memory Usage: 857.891 Meg
+
+Wed Nov 19 16:11:34 2014
+

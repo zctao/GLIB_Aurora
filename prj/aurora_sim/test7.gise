@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="test7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FrameGenChk_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FrameGenChk_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="FrameGenChk_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FrameGenChk_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FrameGenChk_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FrameGenChk_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FrameGenChk_top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FrameGenChk_top.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FrameGenChk_top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FrameGenChk_top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FrameGenChk_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FrameGenChk_top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FrameGenChk_top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FrameGenChk_top_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FrameGenChk_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Loop_Buf.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Loop_Buf.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Loop_Buf.xst"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1413841604" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1413841604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1416343511" xil_pn:in_ck="-4216299850807026960" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1416343511">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FrameGenChk_Module.v"/>
+      <outfile xil_pn:name="FrameGenChk_tb.v"/>
+      <outfile xil_pn:name="FrameGenChk_top.v"/>
+      <outfile xil_pn:name="Loop_Buf.v"/>
+      <outfile xil_pn:name="aurora_axi_to_ll.v"/>
+      <outfile xil_pn:name="aurora_clock_module.v"/>
+      <outfile xil_pn:name="aurora_frame_check.v"/>
+      <outfile xil_pn:name="aurora_frame_gen.v"/>
+      <outfile xil_pn:name="aurora_ll_to_axi.v"/>
+      <outfile xil_pn:name="aurora_looptest.v"/>
+      <outfile xil_pn:name="aurora_reset_logic.v"/>
+      <outfile xil_pn:name="aurora_standard_cc_module.v"/>
+      <outfile xil_pn:name="aurora_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1413841604" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:start_ts="1413841604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413841604" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:start_ts="1413841604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1414010501" xil_pn:in_ck="3440568378070868027" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1426716761187018529" xil_pn:start_ts="1414010501">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/aurora8b10b_exdes.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/aurora8b10b_reset_logic.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/cc_manager/aurora8b10b_standard_cc_module.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/clock_module/aurora8b10b_clock_module.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_gtx.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_transceiver_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_check.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/v6_icon.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/v6_vio.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/simulation/aurora8b10b_tb.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_aurora_lane_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_axi_to_ll.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_channel_err_detect.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_channel_init_sm.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_chbond_count_dec_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_err_detect_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_global_logic.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_idle_and_ver_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_lane_init_sm_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_ll_to_axi.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_output_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_output_switch_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_deframer.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_pdu_datapath.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_sideband_output.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_ce_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_count_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_switch_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_sym_dec_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_sym_gen_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_datapath.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_valid_data_counter.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora_data_fifo.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/aurora_data_fifo.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1416343511" xil_pn:in_ck="-4216299850807026960" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1416343511">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FrameGenChk_Module.v"/>
+      <outfile xil_pn:name="FrameGenChk_tb.v"/>
+      <outfile xil_pn:name="FrameGenChk_top.v"/>
+      <outfile xil_pn:name="Loop_Buf.v"/>
+      <outfile xil_pn:name="aurora_axi_to_ll.v"/>
+      <outfile xil_pn:name="aurora_clock_module.v"/>
+      <outfile xil_pn:name="aurora_frame_check.v"/>
+      <outfile xil_pn:name="aurora_frame_gen.v"/>
+      <outfile xil_pn:name="aurora_ll_to_axi.v"/>
+      <outfile xil_pn:name="aurora_looptest.v"/>
+      <outfile xil_pn:name="aurora_reset_logic.v"/>
+      <outfile xil_pn:name="aurora_standard_cc_module.v"/>
+      <outfile xil_pn:name="aurora_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1416343565" xil_pn:in_ck="-9204532564082200729" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5852332229449985482" xil_pn:start_ts="1416343511">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FrameGenChk_tb_beh.prj"/>
+      <outfile xil_pn:name="FrameGenChk_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1416429190" xil_pn:in_ck="-3117787320098664065" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3484591376939041415" xil_pn:start_ts="1416429189">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FrameGenChk_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1413840912" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1413840912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413840912" xil_pn:name="TRAN_schematicsToHdl" xil_pn:start_ts="1413840912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413921609" xil_pn:in_ck="3440568378070868027" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1426716761187018529" xil_pn:start_ts="1413921607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/aurora8b10b_exdes.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/aurora8b10b_reset_logic.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/cc_manager/aurora8b10b_standard_cc_module.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/clock_module/aurora8b10b_clock_module.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_gtx.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_transceiver_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_check.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/v6_icon.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/example_design/v6_vio.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/simulation/aurora8b10b_tb.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_aurora_lane_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_axi_to_ll.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_channel_err_detect.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_channel_init_sm.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_chbond_count_dec_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_err_detect_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_global_logic.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_idle_and_ver_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_lane_init_sm_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_ll_to_axi.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_output_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_output_switch_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_deframer.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_pdu_datapath.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_sideband_output.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_ce_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_count_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_mux.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_storage_switch_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_sym_dec_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_sym_gen_4byte.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_datapath.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora8b10b/src/aurora8b10b_valid_data_counter.v"/>
+      <outfile xil_pn:name="ipcore_dir/aurora_data_fifo.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/aurora_data_fifo.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1413840225" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1413840225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413840913" xil_pn:name="TRAN_xawsTohdl" xil_pn:start_ts="1413840913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413840913" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:start_ts="1413840913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413840913" xil_pn:name="TRAN_platgen" xil_pn:start_ts="1413840913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1414010383" xil_pn:in_ck="8638248714549705306" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-5607535205301896491" xil_pn:start_ts="1414010353">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="FrameGenChk_top.lso"/>
+      <outfile xil_pn:name="FrameGenChk_top.ngc"/>
+      <outfile xil_pn:name="FrameGenChk_top.ngr"/>
+      <outfile xil_pn:name="FrameGenChk_top.prj"/>
+      <outfile xil_pn:name="FrameGenChk_top.stx"/>
+      <outfile xil_pn:name="FrameGenChk_top.syr"/>
+      <outfile xil_pn:name="FrameGenChk_top.xst"/>
+      <outfile xil_pn:name="FrameGenChk_top_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>
