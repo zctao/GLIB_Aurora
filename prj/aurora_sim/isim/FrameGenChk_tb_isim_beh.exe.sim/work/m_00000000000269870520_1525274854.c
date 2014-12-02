@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v";
+static const char *ng0 = "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v";
 static unsigned int ng1[] = {0U, 0U};
 static unsigned int ng2[] = {1U, 0U};
 static unsigned int ng3[] = {4U, 0U};

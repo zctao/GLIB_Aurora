@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_test.v" Line 228: Port <arg fmt="%s" index="1">s_axis_tready</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_test.v" Line 228: Port <arg fmt="%s" index="1">s_axis_tready</arg> is not connected to this instance
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"v:/hipsBuilds/P_hips_v23.0/rst/hips/gtxe1/B_GTXE1_enc.v" Line 15385: Target &lt;<arg fmt="%s" index="1">(null)</arg>&gt; of concurrent assignment or output port connection should be a net type.

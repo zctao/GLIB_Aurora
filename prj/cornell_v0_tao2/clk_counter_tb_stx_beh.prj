@@ -1,3 +1,0 @@
-verilog isim_temp "CLK_Counter.v"
-verilog isim_temp "clk_counter_tb.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

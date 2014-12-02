@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_top.v";
+static const char *ng0 = "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_top.v";
 
 
 

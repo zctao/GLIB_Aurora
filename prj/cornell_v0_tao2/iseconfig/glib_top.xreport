@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-11-20T10:58:01</DateModified>
+  <DateModified>2014-12-02T16:21:56</DateModified>
   <ModuleName>glib_top</ModuleName>
   <SummaryTimeStamp>2014-11-20T10:58:01</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/LabView User/Documents/ztaotest/Aurora/zttest/prj/cornell_v0_tao2/iseconfig/glib_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/LabView User/Documents/ztaotest/Aurora/zttest/prj/cornell_v0_tao2\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/iseconfig/glib_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2\</ImplementationReportsDirectory>
   <DateInitialized>2013-06-17T11:47:04</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>

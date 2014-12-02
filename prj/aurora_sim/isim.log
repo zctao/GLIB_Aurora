@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\GLIB Firmware\branches\zttest\prj\Aurora\test7\FrameGenChk_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb_isim_beh.wdb 
+Running: C:\Users\LabView User\Documents\ztaotest\GLIB_Aurora\prj\aurora_sim\FrameGenChk_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@pc176'.
@@ -18,22 +18,6 @@ Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
-Simulator is doing circuit initialization process.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-Finished circuit initialization process.
-# restart
-# run 30.00us
-Simulator is doing circuit initialization process.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
-Finished circuit initialization process.
-# restart
-# run 30.00us
 Simulator is doing circuit initialization process.
 WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
 WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.

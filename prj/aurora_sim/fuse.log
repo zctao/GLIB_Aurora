@@ -1,64 +1,64 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb_isim_beh.exe -prj D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb_beh.prj work.FrameGenChk_tb work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_isim_beh.exe -prj C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_beh.prj work.FrameGenChk_tb work.glbl 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_valid_data_counter.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_switch_control.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_mux.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_count_control.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_ce_control.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_sideband_output.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_deframer.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_output_switch_control.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_output_mux.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_mux.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_control.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_datapath.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_control.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_sym_gen_4byte.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_sym_dec_4byte.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_pdu_datapath.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_lane_init_sm_4byte.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_idle_and_ver_gen.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_err_detect_4byte.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_chbond_count_dec_4byte.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_channel_init_sm.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_channel_err_detect.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_gtx.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_ll_to_axi.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_global_logic.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_axi_to_ll.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/src/aurora8b10b_aurora_lane_4byte.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_transceiver_wrapper.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_gen.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_check.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/clock_module/aurora8b10b_clock_module.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/cc_manager/aurora8b10b_standard_cc_module.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/aurora8b10b_reset_logic.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/example_design/aurora8b10b_exdes.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora8b10b/simulation/aurora8b10b_tb.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/ipcore_dir/aurora_data_fifo.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_standard_cc_module.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_reset_logic.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_clock_module.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_test.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_ll_to_axi.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_frame_gen.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_frame_check.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_axi_to_ll.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/Loop_Buf.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_Module.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_looptest.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_top.v" into library work
-Analyzing Verilog file "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_valid_data_counter.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_switch_control.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_mux.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_count_control.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_ce_control.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_sideband_output.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_deframer.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_output_switch_control.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_output_mux.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_mux.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_control.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_datapath.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_control.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_sym_gen_4byte.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_sym_dec_4byte.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_pdu_datapath.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_lane_init_sm_4byte.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_idle_and_ver_gen.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_err_detect_4byte.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_chbond_count_dec_4byte.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_channel_init_sm.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_channel_err_detect.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_gtx.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_ll_to_axi.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_global_logic.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_axi_to_ll.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_aurora_lane_4byte.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_transceiver_wrapper.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_gen.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_check.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/clock_module/aurora8b10b_clock_module.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/cc_manager/aurora8b10b_standard_cc_module.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/aurora8b10b_reset_logic.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/aurora8b10b_exdes.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/simulation/aurora8b10b_tb.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora_data_fifo.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_standard_cc_module.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_reset_logic.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_clock_module.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_test.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_ll_to_axi.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_frame_gen.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_frame_check.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_axi_to_ll.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/Loop_Buf.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_Module.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_looptest.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_top.v" into library work
+Analyzing Verilog file "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1016 - "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/aurora_test.v" Line 228: Port s_axis_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/aurora_test.v" Line 228: Port s_axis_tready is not connected to this instance
 WARNING:HDLCompiler:329 - "v:/hipsBuilds/P_hips_v23.0/rst/hips/gtxe1/B_GTXE1_enc.v" Line 15385: Target <(null)> of concurrent assignment or output port connection should be a net type.
 WARNING:HDLCompiler:189 - "v:/hipsBuilds/P_hips_v23.0/rst/hips/gtxe1/B_GTXE1_enc.v" Line 15747: Size mismatch in connection of port <casclken>. Formal port size is 1-bit while actual signal size is 10-bit.
 WARNING:HDLCompiler:189 - "v:/hipsBuilds/P_hips_v23.0/rst/hips/gtxe1/B_GTXE1_enc.v" Line 15748: Size mismatch in connection of port <comsasdet_b>. Formal port size is 1-bit while actual signal size is 2-bit.
@@ -150,8 +150,8 @@ WARNING:HDLCompiler:189 - "v:/hipsBuilds/P_hips_v23.0/rst/hips/gtxe1/B_GTXE1_enc
 WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/XilinxCoreLib/FIFO_GENERATOR_V9_3.v" Line 4120: Element index -1 into num_read_words_dc is out of bounds
 WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/XilinxCoreLib/FIFO_GENERATOR_V9_3.v" Line 4170: Element index -1 into num_write_words_dc is out of bounds
 Completed static elaboration
-Fuse Memory Usage: 131784 KB
-Fuse CPU Usage: 3634 ms
+Fuse Memory Usage: 131592 KB
+Fuse CPU Usage: 4586 ms
 Compiling module aurora_LL_TO_AXI(DATA_WIDTH=32,S...
 Compiling module aurora_FRAME_GEN
 Compiling module aurora_AXI_TO_LL(DATA_WIDTH=32,S...
@@ -728,8 +728,8 @@ Compiling module FrameGenChk_top
 Compiling module FrameGenChk_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 301 sub-compilation(s) to finish...
+Waiting for 127 sub-compilation(s) to finish...
 Compiled 576 Verilog Units
-Built simulation executable D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb_isim_beh.exe
-Fuse Memory Usage: 161720 KB
-Fuse CPU Usage: 13805 ms
+Built simulation executable C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_isim_beh.exe
+Fuse Memory Usage: 162552 KB
+Fuse CPU Usage: 15162 ms

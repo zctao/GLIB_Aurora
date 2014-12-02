@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/GLIB Firmware/branches/zttest/prj/Aurora/test7/FrameGenChk_tb.v";
+static const char *ng0 = "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb.v";
 static unsigned int ng1[] = {1U, 0U};
 static unsigned int ng2[] = {0U, 0U};
 static const char *ng3 = "\nAURORA_TB : INFO : Reached max. simulation time limit\n";
