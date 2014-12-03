@@ -35,6 +35,9 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/traffic_gen_check/aurora8b10b_2_frame_gen.vhd&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/simulation/aurora8b10b_2_tb.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_aurora_lane_4byte.vhd&quot; into library work</arg>
 </msg>
 

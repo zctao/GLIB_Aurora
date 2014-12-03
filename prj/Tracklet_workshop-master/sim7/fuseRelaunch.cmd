@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/LabView User/Documents/ztaotest/tracklet/Tracklet_workshop-master/sim7/Verilog_Top_isim_beh.exe" -prj "C:/Users/LabView User/Documents/ztaotest/tracklet/Tracklet_workshop-master/sim7/Verilog_Top_beh.prj" "work.Verilog_Top" "work.glbl" 
