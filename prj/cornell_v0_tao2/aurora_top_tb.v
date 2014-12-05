@@ -115,7 +115,7 @@ module aurora_top_tb;
 		#16000
 		tx_data = 32'hcafebabe;
 		tx_tvalid = 1'b1;
-		tx_tkeep = 4'b1010;
+		tx_tkeep = 4'b0110;
 		tx_tlast = 1'b1;
 		//#32
 		//tx_data = 0;

@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/iseconfig/filter.filter" -ifn "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/glib_top.xst" -ofn "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/glib_top.syr" 

@@ -1,0 +1,10 @@
+Command line:
+   aurora_top_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62318
+
+Fri Dec 05 12:38:29 2014
+
+
+ Elaboration Time: 3.54122 sec

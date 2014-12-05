@@ -202,8 +202,8 @@ module aurora_test_1 #
 */
 	 //I/O Interface
 	 //FIFO reset signal
-	 assign s_tx_aresetn = ~RESET;
-	 assign s_rx_aresetn = ~RESET;
+	 assign s_tx_aresetn = ~system_reset_i;
+	 assign s_rx_aresetn = ~system_reset_i;
 	 
 	 //tx fifo
 	 aurora_data_fifo tx_fifo

@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_isim_beh.exe -prj C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_beh.prj work.FrameGenChk_tb work.glbl 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_isim_beh.exe" -prj "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_beh.prj" "work.FrameGenChk_tb" "work.glbl" 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -150,8 +150,8 @@ WARNING:HDLCompiler:189 - "v:/hipsBuilds/P_hips_v23.0/rst/hips/gtxe1/B_GTXE1_enc
 WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/XilinxCoreLib/FIFO_GENERATOR_V9_3.v" Line 4120: Element index -1 into num_read_words_dc is out of bounds
 WARNING:HDLCompiler:1007 - "N:/P.20131013/rtf/verilog/src/XilinxCoreLib/FIFO_GENERATOR_V9_3.v" Line 4170: Element index -1 into num_write_words_dc is out of bounds
 Completed static elaboration
-Fuse Memory Usage: 131592 KB
-Fuse CPU Usage: 4586 ms
+Fuse Memory Usage: 131720 KB
+Fuse CPU Usage: 3182 ms
 Compiling module aurora_LL_TO_AXI(DATA_WIDTH=32,S...
 Compiling module aurora_FRAME_GEN
 Compiling module aurora_AXI_TO_LL(DATA_WIDTH=32,S...
@@ -728,8 +728,7 @@ Compiling module FrameGenChk_top
 Compiling module FrameGenChk_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 127 sub-compilation(s) to finish...
 Compiled 576 Verilog Units
 Built simulation executable C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/FrameGenChk_tb_isim_beh.exe
-Fuse Memory Usage: 162552 KB
-Fuse CPU Usage: 15162 ms
+Fuse Memory Usage: 162104 KB
+Fuse CPU Usage: 13837 ms
