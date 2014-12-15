@@ -211,3 +211,4 @@ at 0 ps, Instance /aurora_top_tb/uut/aurora_i_2/aurora_module_i_2/aurora8b10b_2_
 Finished circuit initialization process.
 at 1277247 ps(2), Instance /aurora_top_tb/uut/aurora_i_1/aurora_module_i/ll_to_axi_pdu_i/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 1277247 ps(2), Instance /aurora_top_tb/uut/aurora_i_2/aurora_module_i_2/ll_to_axi_pdu_i/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.

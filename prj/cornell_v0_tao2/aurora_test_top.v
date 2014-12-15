@@ -67,7 +67,10 @@ module Aurora_test_top
 	   output [0:31] rx_data,
 	   output        rx_tvalid,
 	   output [0:3]  rx_tkeep,
-	   output        rx_tlast
+	   output        rx_tlast,
+		
+		//timer
+		output [31:0] timerout
 );
 
 //********************************Wire Declarations**********************************
@@ -273,6 +276,15 @@ module Aurora_test_top
 	     .AXI4_S_IP_TX_TLAST(rx_tlast_i_2),
 	     .AXI4_S_IP_TX_TVALID(rx_tvalid_i_2)
 
+	 );
+	 
+	 CLK_Timer clk_counter 
+	 (
+		.clk(io_clk_1),
+		.reset(RESET),
+		.signal1(tx_tvalid),
+		.signal2(rx_tvalid_i_2),
+		.out(timerout)
 	 );
 
 endmodule

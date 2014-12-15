@@ -23,7 +23,7 @@ module CLK_Timer(
     input wire reset,
     input wire signal1,
 	 input wire signal2,
-    output reg [7:0] out
+    output reg [31:0] out
     );
 
 	reg start;

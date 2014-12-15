@@ -1,7 +1,7 @@
 Release 14.7 reportgen P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-NI-CRATE::  Fri Dec 05 10:32:11 2014
+NI-CRATE::  Mon Dec 15 15:16:19 2014
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\reportgen.exe -intstyle ise
 -clock_regions -o glib_top glib_top.ncd 

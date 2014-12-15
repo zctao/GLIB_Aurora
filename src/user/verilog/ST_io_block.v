@@ -92,10 +92,13 @@ module ST_io_block(
 	wire aurora_rd_stat3;
 	
 	wire aurora_latency_sel;
+	wire aurora_latency_lb_sel;
 	
 	wire debug_reg1_sel;
 	wire debug_reg2_sel;
 	wire debug_reg3_sel;
+	
+	wire [31:0] timer_out;
 	
 	//////////////////////////////////////////////////////////////////
 	/*assign aurora_wr_data = io_wr_en && (io_addr[15:0] == 16'h0001);    //address for write data 0x40120001
@@ -114,7 +117,8 @@ module ST_io_block(
 	assign aurora_rd_stat2 = io_sel && (io_addr[15:0] == 16'h000d); //address for rdbk_stat2_reg 0x4012000d
 	assign aurora_rd_stat3 = io_sel && (io_addr[15:0] == 16'h000e); //address for rdbk_stat3_reg 0x4012000e
 	
-	assign aurora_latency_sel = io_sel && (io_addr[15:0] == 16'h0013); //address for latency_reg 0x40120013
+	assign aurora_latency_lb_sel = io_sel && (io_addr[15:0] == 16'h0013); //address for latency_lb_reg 0x40120013
+	assign aurora_latency_sel = io_sel && (io_addr[15:0] == 16'h0014);  //address for latency_reg 0x40120014
 	
 	assign debug_reg1_sel = io_sel && (io_addr[15:0] == 16'h0010);
 	assign debug_reg2_sel = io_sel && (io_addr[15:0] == 16'h0011);
@@ -122,7 +126,8 @@ module ST_io_block(
 	
 	/////////////////////////////////////////////////////////////////////////////
 	//latency register
-	reg [7:0] latency_reg;
+	reg [31:0] latency_reg;
+	reg [31:0] latency_lb_reg;
 	
 	//debug registers
 	reg debug_reg1;
@@ -196,22 +201,29 @@ module ST_io_block(
 	    .rx_data(rx_data),
 	    .rx_tvalid(rx_tvalid),
 	    .rx_tkeep(rx_tkeep),
-	    .rx_tlast(rx_tlast)
+	    .rx_tlast(rx_tlast),
+		 
+		 //timer out 
+		 .timerout(timer_out)
 	);
 
+
+
+	always @ (posedge io_clk) latency_reg <= timer_out;
+
 	//A Timer for latency measurement
-	wire [7:0] timer_out;
-	
-	CLK_Timer clk_counter
+	wire [31:0] timer_out_lb;
+	//output does not return to zero. Results add up each time. Can be used but need to fix this.
+	CLK_Timer clk_counter_lb
 	(
 		.clk(io_clk),
 		.reset(reset),
 		.signal1(tx_tvalid),
 		.signal2(rx_tvalid),
-		.out(timer_out)
+		.out(timer_out_lb)
 	);
 	
-	always @ (posedge io_clk) latency_reg <= timer_out;
+	always @ (posedge io_clk) latency_lb_reg <= timer_out_lb;
 
 
 /*	///////////////////////////////////////////////////////////////////////////////////////////////
@@ -370,7 +382,8 @@ module ST_io_block(
 		if (io_rd_en & data_pack2_sel) io_rd_data_reg[31:0] <= data_pack2_reg;
 		if (io_rd_en & data_pack3_sel) io_rd_data_reg[31:0] <= data_pack3_reg;
 		//aurora latency reg
-		if (io_rd_en & aurora_latency_sel) io_rd_data_reg[31:0] <= {24'b0,latency_reg};
+		if (io_rd_en & aurora_latency_lb_sel) io_rd_data_reg[31:0] <= latency_lb_reg;
+		if (io_rd_en & aurora_latency_sel) io_rd_data_reg[31:0] <= latency_reg;
 		//debug regs
 		if (io_rd_en & debug_reg1_sel) io_rd_data_reg[31:0] <= debug_reg1;
 		if (io_rd_en & debug_reg2_sel) io_rd_data_reg[31:0] <= debug_reg2;
