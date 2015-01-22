@@ -1,0 +1,52 @@
+// Collection of constants for addressing various parts of the CMS trigger FPGA
+
+// Be sure to use [ `include "Address.txt' ] whenever any of these constants are needed.
+// Also, be sure to use the backtic [ ` ] when the constant is actually used.
+
+// Only define these constants once.
+`ifndef ADDRESS_INCLUDED
+  `define ADDRESS_INCLUDED
+
+	// Every FPGA block that needs programmed I/O has an I/O module embedded in it.
+	// Upper address bits select blocks, while lower address bits select memory
+	// or registers within the block.
+
+	// Specify a 32-bit address space hierarchy that can handle future expansion.
+	// Don't use bit 31. This will avoid the appearance of 'negative' addresses when bit 31 would be 1.
+	`define TOP_ADR_BIT 30
+	
+	// Use bits 30:29 to divide the address space into several large chunks.
+	`define CHUNK_ADR_BITS  2
+	`define CHUNK_ADR_MSB `TOP_ADR_BIT                             // =30 : 
+	`define CHUNK_ADR_LSB (`CHUNK_ADR_MSB - `CHUNK_ADR_BITS) + 1   // =29 : (30-2)+1
+	
+		// The first chunk will be used for receiving stubs from the detector and finding tracklets.
+		// It will be divided into blocks, each one supporting a detector module.
+		`define MODULE_ADR_BITS 7                                        // one FPGA can handle up to 128 detector modules
+		`define MODULE_ADR_MSB `CHUNK_ADR_LSB - 1                        // MSB=28 : 29-1 
+		`define MODULE_ADR_LSB (`MODULE_ADR_MSB - `MODULE_ADR_BITS) + 1  // LSB=22 : (28-7)+1
+	
+		// The next bits will select a function for each module. Some functions are 'TS' (tracklet search),
+		// 'TP' (find track params).
+		// If we do 3 bits, that would support 8 functions.
+		`define FUNC_ADR_BITS 3                                        // Number of bits to pick a function
+		`define FUNC_ADR_MSB `MODULE_ADR_LSB -1                        // MSB=21 : 22-1
+		`define FUNC_ADR_LSB (`FUNC_ADR_MSB - `FUNC_ADR_BITS) + 1      // LSB=19 : (21-3)+1
+
+		// The next bits will select a sub-block for each function. Some  only contain one
+		// sub-block (TS tracklet search), while others contain several (TP track params).
+		// If we do 3 bits, that would support 8 sub-blocks.
+		`define BLOCK_ADR_BITS 3                                       // Number of bits to pick a sub-block
+		`define BLOCK_ADR_MSB `FUNC_ADR_LSB - 1                        // MSB=18 : 19-1
+		`define BLOCK_ADR_LSB (`BLOCK_ADR_MSB - `BLOCK_ADR_BITS) + 1   // LSB=16 : (18-3)+1
+
+		// Reserve low bits for local access to memory or registers. If we do 16 bits, and the MSB
+		// is used to select either memory space (MSB=0) or register space (MSB=1), that would
+		// support access for up to 32k of memory, or more registers than we can imagine.
+		`define LOC_ADR_BITS 16                                         // Number of bits used locally
+		`define LOC_ADR_MSB  `BLOCK_ADR_LSB - 1                         // MSB=15 : 16-1
+		`define LOC_ADR_LSB  (`LOC_ADR_MSB - `LOC_ADR_BITS) + 1         // LSB=0  : (16-16)+1
+
+	// The second chunk will be for processing track projections received from the first chunk.
+	
+`endif

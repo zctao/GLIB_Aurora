@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/Aurora_1/clk_counter_tb_isim_beh.exe" -prj "C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/Aurora_1/clk_counter_tb_beh.prj" "work.clk_counter_tb" "work.glbl" 
