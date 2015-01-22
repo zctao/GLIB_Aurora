@@ -1,0 +1,143 @@
+-> BOARD STATUS
+-> -----------------
+Write queued: dataU32 = 0xbabebeef to register 'user_ipb_regs16' with addrOffset
+ = 0x00000000
+Running all queued transactions
+
+Serialising the following packet content:
+  0x100000f8    Header
+  0x100000f8    Header
+  0x100000f8    Header
+  0x100000f8    Header
+  0x101e0328    Header
+  0x40000016    Body 0
+  0x00000000    Body 1
+  0xbabebeef    Body 2
+
+Sending packet now.
+Received response packet.
+
+Raw received packet content is:
+  0x100000fc
+  0x100000fc
+  0x100000fc
+  0x100000fc
+  0x101e012c
+  0xbabebeef
+
+Byte-order header detected: no byte-reorder is required.
+
+Deserialised packet content is:
+  0x100000fc    Header
+  0x100000fc    Header
+  0x100000fc    Header
+  0x100000fc    Header
+  0x101e012c    Header
+  0xbabebeef    Body 0
+
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Write success! Register 'user_ipb_regs16' assigned: 0xbabebeef
+Clearing transaction queue
+-> user reg 16       :Read queued: register 'user_ipb_regs16' with addrOffset =
+0x00000000
+Running all queued transactions
+
+Serialising the following packet content:
+  0x100000f8    Header
+  0x100000f8    Header
+  0x100000f8    Header
+  0x100000f8    Header
+  0x10200118    Header
+  0x40000016    Body 0
+
+Sending packet now.
+Received response packet.
+
+Raw received packet content is:
+  0x100000fc
+  0x100000fc
+  0x100000fc
+  0x100000fc
+  0x1020011c
+  0xbabebeef
+
+Byte-order header detected: no byte-reorder is required.
+
+Deserialised packet content is:
+  0x100000fc    Header
+  0x100000fc    Header
+  0x100000fc    Header
+  0x100000fc    Header
+  0x1020011c    Header
+  0xbabebeef    Body 0
+
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Read success! Register 'user_ipb_regs16' returned: 0xbabebeef
+Clearing transaction queue
+0xbabebeefL
+Block write requested: register 'user_ipb_mem' with addrOffset = 0x00000000 and
+depth = 5
+
+Serialising the following packet content:
+  0x100000f8    Header
+  0x100000f8    Header
+  0x100000f8    Header
+  0x100000f8    Header
+  0x10220520    Header
+  0x60000000    Body 0
+  0x00000001    Body 1
+  0x00000002    Body 2
+  0x00000003    Body 3
+  0x00000004    Body 4
+  0x00000005    Body 5
+
+Sending packet now.
+Received response packet.
+
+Raw received packet content is:
+  0x100000fc
+  0x100000fc
+  0x100000fc
+  0x100000fc
+  0x10220026
+
+Byte-order header detected: no byte-reorder is required.
+
+Deserialised packet content is:
+  0x100000fc    Header
+  0x100000fc    Header
+  0x100000fc    Header
+  0x100000fc    Header
+  0x10220026    Header
+
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Result Code =  0
+Result Code =  2
+Traceback (most recent call last):
+  File "glib_board_info.py", line 86, in <module>
+    glib.blockWrite("user_ipb_mem", data)
+  File "C:\Users\LabView User\Documents\local GLIB\PyChips_1_4_1\src\ChipsBus.py
+", line 303, in blockWrite
+    return self._blockOrFifoWrite(name, dataList, addrOffset, False)
+  File "C:\Users\LabView User\Documents\local GLIB\PyChips_1_4_1\src\ChipsBus.py
+", line 523, in _blockOrFifoWrite
+    raise ChipsException("Block/FIFO write error on register '" + name + "':\n\t
+" + str(err))
+ChipsException.ChipsException: Block/FIFO write error on register 'user_ipb_mem'
+:
+        Transaction error: non-zero result code returned for transaction number
+00000011 (header=0x10220026)!
+
+C:\Users\LabView User\Documents\local GLIB\PyChips_1_4_1\scripts>python glib_boa
+rd_info.py >& error.log
+>& was unexpected at this time.

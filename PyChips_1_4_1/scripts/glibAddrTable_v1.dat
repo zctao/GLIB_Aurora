@@ -1,0 +1,585 @@
+
+Custom LogoCollabNet Teamforge
+
+    Projects
+    My Workspace
+    History
+    More
+
+        Jump to ID
+    zt75
+    Help
+
+Project Home
+Project Home 	Trackers
+Trackers 	Tasks
+Tasks 	Source Code
+Source Code 	Build & Test
+Build & Test 	File Releases
+File Releases 	Documents
+Documents 	Wiki
+Wiki 	Discussion Forums
+Discussions 	Reports
+Reports 	Project Admin
+Project Admin 	
+HL-LHC Track Trigger
+
+[python_scripts] / PyChips_1_4_1 / scripts / glibAddrTable.dat
+
+Parent Directory Parent Directory | Revision Log Revision Log
+Revision 1 - (show annotations) (download)
+Wed Jul 3 15:47:00 2013 EDT (15 months, 3 weeks ago) by jec429
+File size: 28531 byte(s)
+1 	*------------------------------------------------------------------------------------------
+2 	* system regs
+3 	*------------------------------------------------------------------------------------------
+4 	* RegName RegAddr RegMask R W Description
+5 	*------------------------------------------------------------------------------------------
+6 	board_id 00000000 ffffffff 1 0
+7 	board_id_char1 00000000 ff000000 1 0
+8 	board_id_char2 00000000 00ff0000 1 0
+9 	board_id_char3 00000000 0000ff00 1 0
+10 	board_id_char4 00000000 000000ff 1 0
+11 	sys_id 00000001 ffffffff 1 0
+12 	sys_id_char1 00000001 ff000000 1 0
+13 	sys_id_char2 00000001 00ff0000 1 0
+14 	sys_id_char3 00000001 0000ff00 1 0
+15 	sys_id_char4 00000001 000000ff 1 0
+16 	firmware_id 00000002 ffffffff 1 0
+17 	ver_major 00000002 f0000000 1 0
+18 	ver_minor 00000002 0f000000 1 0
+19 	ver_build 00000002 00ff0000 1 0
+20 	firmware_yy 00000002 0000fe00 1 0
+21 	firmware_mm 00000002 000001e0 1 0
+22 	firmware_dd 00000002 0000001f 1 0
+23 	*
+24 	test 00000003 ffffffff 1 1
+25 	*
+26 	ctrl 00000004 ffffffff 1 1
+27 	pcie_clk_fsel 00000004 00000001 1 1
+28 	pcie_clk_mr 00000004 00000002 1 1
+29 	pcie_clk_oe 00000004 00000004 1 1
+30 	cdce_powerup 00000004 00000010 1 1
+31 	cdce_refsel 00000004 00000020 1 1
+32 	cdce_sync 00000004 00000040 1 1
+33 	cdce_ctrl_sel 00000004 00000080 1 1
+34 	tclkb_dr_en 00000004 00000200 1 1
+35 	xpoint2_s10 00000004 00001000 1 1
+36 	xpoint2_s11 00000004 00002000 1 1
+37 	xpoint1_s10 00000004 00010000 1 1
+38 	xpoint1_s11 00000004 00020000 1 1
+39 	xpoint1_s20 00000004 00040000 1 1
+40 	xpoint1_s21 00000004 00080000 1 1
+41 	xpoint1_s30 00000004 00100000 1 1
+42 	xpoint1_s31 00000004 00200000 1 1
+43 	xpoint1_s40 00000004 00400000 1 1
+44 	xpoint1_s41 00000004 00800000 1 1
+45 	gbt_phase_mon_reset 00000004 04000000 1 1
+46 	fpga_program_b_trst 00000004 10000000 1 1
+47 	*
+48 	ctrl_2 00000005 ffffffff 1 1
+49 	icap_page 00000005 00000003 1 1
+50 	icap_trigg 00000005 00000010 1 1
+51 	*
+52 	status 00000006 ffffffff 1 0
+53 	glib_sfp1_status 00000006 00000007 1 0
+54 	glib_sfp1_mod_abs 00000006 00000001 1 0
+55 	glib_sfp1_rxlos 00000006 00000002 1 0
+56 	glib_sfp1_txfault 00000006 00000004 1 0
+57 	glib_sfp2_status 00000006 00000070 1 0
+58 	glib_sfp2_mod_abs 00000006 00000010 1 0
+59 	glib_sfp2_rxlos 00000006 00000020 1 0
+60 	glib_sfp2_txfault 00000006 00000040 1 0
+61 	glib_sfp3_status 00000006 00000700 1 0
+62 	glib_sfp3_mod_abs 00000006 00000100 1 0
+63 	glib_sfp3_rxlos 00000006 00000200 1 0
+64 	glib_sfp3_txfault 00000006 00000400 1 0
+65 	glib_sfp4_status 00000006 00007000 1 0
+66 	glib_sfp4_mod_abs 00000006 00001000 1 0
+67 	glib_sfp4_rxlos 00000006 00002000 1 0
+68 	glib_sfp4_txfault 00000006 00004000 1 0
+69 	gbe_int 00000006 00010000 1 0
+70 	fmc1_present 00000006 00020000 1 0
+71 	fmc2_present 00000006 00040000 1 0
+72 	fpga_reset 00000006 00080000 1 0
+73 	v6_cpld 00000006 03f00000 1 0
+74 	cdce_lock 00000006 08000000 1 0
+75 	sfp_phase_mon_done 00000006 10000000 1 0
+76 	sfp_phase_mon_ok 00000006 20000000 1 0
+77 	fmc1_phase_mon_done 00000006 40000000 1 0
+78 	fmc1_phase_mon_ok 00000006 80000000 1 0
+79 	*
+80 	status_2 00000007 ffffffff 1 0
+81 	*
+82 	ctrl_sram 00000008 ffffffff 1 1
+83 	sram1_user_logic 00000008 00000001 1 1
+84 	sram1_bist_run 00000008 00000002 1 1
+85 	sram2_user_logic 00000008 00010000 1 1
+86 	sram2_bist_run 00000008 00020000 1 1
+87 	flash_select 00000008 00100000 1 1
+88 	*
+89 	status_sram 00000009 ffffffff 1 0
+90 	sram1_bist_done 00000009 00000001 1 0
+91 	sram1_bist_ok 00000009 00000002 1 0
+92 	sram1_bist_errors 00000009 00000ff0 1 0
+93 	sram2_bist_done 00000009 00010000 1 0
+94 	sram2_bist_ok 00000009 00020000 1 0
+95 	sram2_bist_errors 00000009 0ff00000 1 0
+96 	*
+97 	spi_txdata 0000000a ffffffff 1 1
+98 	*
+99 	spi_command 0000000b ffffffff 1 1
+100 	spi_autoclear 0000000b f0000000 1 1
+101 	*
+102 	spi_rxdata 0000000c ffffffff 1 0
+103 	*
+104 	i2c_settings 0000000d ffffffff 1 1
+105 	i2c_enable 0000000d 00000800 1 1
+106 	i2c_bus_select 0000000d 00000400 1 1
+107 	i2c_prescaler 0000000d 000003ff 1 1
+108 	*
+109 	i2c_command 0000000e ffffffff 1 1
+110 	i2c_autoclear 0000000e f0000000 1 1 * special feature of that register, clears automatically the upper 4 bits
+111 	i2c_strobe 0000000e 80000000 1 1
+112 	i2c_mode16 0000000e 02000000 1 1
+113 	i2c_write 0000000e 00800000 1 1
+114 	i2c_slvaddr_7b 0000000e 007f0000 1 1
+115 	i2c_wrdata 0000000e 000000ff 1 1
+116 	*
+117 	i2c_reply 0000000f ffffffff 1 0
+118 	i2c_reply_status 0000000f 0c000000 1 0
+119 	i2c_reply_8b 0000000f 000000ff 1 0
+120 	i2c_reply_16b 0000000f 0000ffff 1 0
+121 	*
+122 	sfp_phase_mon_ctrl 00000010 ffffffff 1 1
+123 	sfp_phase_mon_lower 00000010 000000ff 1 1
+124 	sfp_phase_mon_upper 00000010 0000ff00 1 1
+125 	sfp_phase_mon_stats 00000011 ffffffff 1 0
+126 	fmc1_phase_mon_ctrl 00000012 ffffffff 1 1
+127 	fmc1_phase_mon_lower 00000012 000000ff 1 1
+128 	fmc1_phase_mon_upper 00000012 0000ff00 1 1
+129 	fmc1_phase_mon_stats 00000013 ffffffff 1 0
+130 	
+131 	*------------------------------------------------------------------------------------------
+132 	* sram memory space
+133 	*------------------------------------------------------------------------------------------
+134 	* RegName RegAddr RegMask R W Description
+135 	*------------------------------------------------------------------------------------------
+136 	sram1 02000000 ffffffff 1 1
+137 	sram2 04000000 ffffffff 1 1
+138 	
+139 	*------------------------------------------------------------------------------------------
+140 	* icap memory space
+141 	*------------------------------------------------------------------------------------------
+142 	* RegName RegAddr RegMask R W Description
+143 	*------------------------------------------------------------------------------------------
+144 	icap 00000200 ffffffff 1 1
+145 	
+146 	*------------------------------------------------------------------------------------------
+147 	* flash memory space
+148 	*------------------------------------------------------------------------------------------
+149 	* RegName RegAddr RegMask R W Description
+150 	*------------------------------------------------------------------------------------------
+151 	flash_async_read_cmd 0800bddf ffffffff 1 1 Note!!! The Flash is 16 bit but the mask is 32 bit
+152 	flash_sync_read_cmd 08004ddf ffffffff 1 1 to be able to use blockWrite and fifoWrite
+153 	*
+154 	flash_bank15 08000000 ffffffff 1 1 512Kword
+155 	flash_block130 08000000 ffffffff 1 1 64Kword
+156 	flash_block129 08010000 ffffffff 1 1 64Kword
+157 	flash_block128 08020000 ffffffff 1 1 64Kword
+158 	flash_block127 08030000 ffffffff 1 1 64Kword
+159 	flash_block126 08040000 ffffffff 1 1 64Kword
+160 	flash_block125 08050000 ffffffff 1 1 64Kword
+161 	flash_block124 08060000 ffffffff 1 1 64Kword
+162 	flash_block123 08070000 ffffffff 1 1 64Kword
+163 	*
+164 	flash_bank14 08080000 ffffffff 1 1 512Kword
+165 	flash_block122 08080000 ffffffff 1 1 64Kword
+166 	flash_block121 08090000 ffffffff 1 1 64Kword
+167 	flash_block120 080a0000 ffffffff 1 1 64Kword
+168 	flash_block119 080b0000 ffffffff 1 1 64Kword
+169 	flash_block118 080c0000 ffffffff 1 1 64Kword
+170 	flash_block117 080d0000 ffffffff 1 1 64Kword
+171 	flash_block116 080e0000 ffffffff 1 1 64Kword
+172 	flash_block115 080f0000 ffffffff 1 1 64Kword
+173 	*
+174 	flash_bank13 08100000 ffffffff 1 1 512Kword
+175 	flash_block114 08100000 ffffffff 1 1 64Kword
+176 	flash_block113 08110000 ffffffff 1 1 64Kword
+177 	flash_block112 08120000 ffffffff 1 1 64Kword
+178 	flash_block111 08130000 ffffffff 1 1 64Kword
+179 	flash_block110 08140000 ffffffff 1 1 64Kword
+180 	flash_block109 08150000 ffffffff 1 1 64Kword
+181 	flash_block108 08160000 ffffffff 1 1 64Kword
+182 	flash_block107 08170000 ffffffff 1 1 64Kword
+183 	*
+184 	flash_bank12 08180000 ffffffff 1 1 512Kword
+185 	flash_block106 08180000 ffffffff 1 1 64Kword
+186 	flash_block105 08190000 ffffffff 1 1 64Kword
+187 	flash_block104 081a0000 ffffffff 1 1 64Kword
+188 	flash_block103 081b0000 ffffffff 1 1 64Kword
+189 	flash_block102 081c0000 ffffffff 1 1 64Kword
+190 	flash_block101 081d0000 ffffffff 1 1 64Kword
+191 	flash_block100 081e0000 ffffffff 1 1 64Kword
+192 	flash_block99 081f0000 ffffffff 1 1 64Kword
+193 	*
+194 	flash_bank11 08200000 ffffffff 1 1 512Kword
+195 	flash_block98 08200000 ffffffff 1 1 64Kword
+196 	flash_block97 08210000 ffffffff 1 1 64Kword
+197 	flash_block96 08220000 ffffffff 1 1 64Kword
+198 	flash_block95 08230000 ffffffff 1 1 64Kword
+199 	flash_block94 08240000 ffffffff 1 1 64Kword
+200 	flash_block93 08250000 ffffffff 1 1 64Kword
+201 	flash_block92 08260000 ffffffff 1 1 64Kword
+202 	flash_block91 08270000 ffffffff 1 1 64Kword
+203 	*
+204 	flash_bank10 08280000 ffffffff 1 1 512Kword
+205 	flash_block90 08280000 ffffffff 1 1 64Kword
+206 	flash_block89 08290000 ffffffff 1 1 64Kword
+207 	flash_block88 082a0000 ffffffff 1 1 64Kword
+208 	flash_block87 082b0000 ffffffff 1 1 64Kword
+209 	flash_block86 082c0000 ffffffff 1 1 64Kword
+210 	flash_block85 082d0000 ffffffff 1 1 64Kword
+211 	flash_block84 082e0000 ffffffff 1 1 64Kword
+212 	flash_block83 082f0000 ffffffff 1 1 64Kword
+213 	*
+214 	flash_bank9 08300000 ffffffff 1 1 512Kword
+215 	flash_block82 08300000 ffffffff 1 1 64Kword
+216 	flash_block81 08310000 ffffffff 1 1 64Kword
+217 	flash_block80 08320000 ffffffff 1 1 64Kword
+218 	flash_block79 08330000 ffffffff 1 1 64Kword
+219 	flash_block78 08340000 ffffffff 1 1 64Kword
+220 	flash_block77 08350000 ffffffff 1 1 64Kword
+221 	flash_block76 08360000 ffffffff 1 1 64Kword
+222 	flash_block75 08370000 ffffffff 1 1 64Kword
+223 	*
+224 	flash_bank8 08380000 ffffffff 1 1 512Kword
+225 	flash_block74 08380000 ffffffff 1 1 64Kword
+226 	flash_block73 08390000 ffffffff 1 1 64Kword
+227 	flash_block72 083a0000 ffffffff 1 1 64Kword
+228 	flash_block71 083b0000 ffffffff 1 1 64Kword
+229 	flash_block70 083c0000 ffffffff 1 1 64Kword
+230 	flash_block69 083d0000 ffffffff 1 1 64Kword
+231 	flash_block68 083e0000 ffffffff 1 1 64Kword
+232 	flash_block67 083f0000 ffffffff 1 1 64Kword
+233 	*
+234 	flash_bank7 08400000 ffffffff 1 1 512Kword
+235 	flash_block66 08400000 ffffffff 1 1 64Kword
+236 	flash_block65 08410000 ffffffff 1 1 64Kword
+237 	flash_block64 08420000 ffffffff 1 1 64Kword
+238 	flash_block63 08430000 ffffffff 1 1 64Kword
+239 	flash_block62 08440000 ffffffff 1 1 64Kword
+240 	flash_block61 08450000 ffffffff 1 1 64Kword
+241 	flash_block60 08460000 ffffffff 1 1 64Kword
+242 	flash_block59 08470000 ffffffff 1 1 64Kword
+243 	*
+244 	flash_bank6 08480000 ffffffff 1 1 512Kword
+245 	flash_block58 08480000 ffffffff 1 1 64Kword
+246 	flash_block57 08490000 ffffffff 1 1 64Kword
+247 	flash_block56 084a0000 ffffffff 1 1 64Kword
+248 	flash_block55 084b0000 ffffffff 1 1 64Kword
+249 	flash_block54 084c0000 ffffffff 1 1 64Kword
+250 	flash_block53 084d0000 ffffffff 1 1 64Kword
+251 	flash_block52 084e0000 ffffffff 1 1 64Kword
+252 	flash_block51 084f0000 ffffffff 1 1 64Kword
+253 	*
+254 	flash_bank5 08500000 ffffffff 1 1 512Kword
+255 	flash_block50 08500000 ffffffff 1 1 64Kword
+256 	flash_block49 08510000 ffffffff 1 1 64Kword
+257 	flash_block48 08520000 ffffffff 1 1 64Kword
+258 	flash_block47 08530000 ffffffff 1 1 64Kword
+259 	flash_block46 08540000 ffffffff 1 1 64Kword
+260 	flash_block45 08550000 ffffffff 1 1 64Kword
+261 	flash_block44 08560000 ffffffff 1 1 64Kword
+262 	flash_block43 08570000 ffffffff 1 1 64Kword
+263 	*
+264 	flash_bank4 08580000 ffffffff 1 1 512Kword
+265 	flash_block42 08580000 ffffffff 1 1 64Kword
+266 	flash_block41 08590000 ffffffff 1 1 64Kword
+267 	flash_block40 085a0000 ffffffff 1 1 64Kword
+268 	flash_block39 085b0000 ffffffff 1 1 64Kword
+269 	flash_block38 085c0000 ffffffff 1 1 64Kword
+270 	flash_block37 085d0000 ffffffff 1 1 64Kword
+271 	flash_block36 085e0000 ffffffff 1 1 64Kword
+272 	flash_block35 085f0000 ffffffff 1 1 64Kword
+273 	*
+274 	flash_bank3 08600000 ffffffff 1 1 512Kword
+275 	flash_block34 08600000 ffffffff 1 1 64Kword
+276 	flash_block33 08610000 ffffffff 1 1 64Kword
+277 	flash_block32 08620000 ffffffff 1 1 64Kword
+278 	flash_block31 08630000 ffffffff 1 1 64Kword
+279 	flash_block30 08640000 ffffffff 1 1 64Kword
+280 	flash_block29 08650000 ffffffff 1 1 64Kword
+281 	flash_block28 08660000 ffffffff 1 1 64Kword
+282 	flash_block27 08670000 ffffffff 1 1 64Kword
+283 	*
+284 	flash_bank2 08680000 ffffffff 1 1 512Kword
+285 	flash_block26 08680000 ffffffff 1 1 64Kword
+286 	flash_block25 08690000 ffffffff 1 1 64Kword
+287 	flash_block24 086a0000 ffffffff 1 1 64Kword
+288 	flash_block23 086b0000 ffffffff 1 1 64Kword
+289 	flash_block22 086c0000 ffffffff 1 1 64Kword
+290 	flash_block21 086d0000 ffffffff 1 1 64Kword
+291 	flash_block20 086e0000 ffffffff 1 1 64Kword
+292 	flash_block19 086f0000 ffffffff 1 1 64Kword
+293 	*
+294 	flash_bank1 08700000 ffffffff 1 1 512Kword
+295 	flash_block18 08700000 ffffffff 1 1 64Kword
+296 	flash_block17 08710000 ffffffff 1 1 64Kword
+297 	flash_block16 08720000 ffffffff 1 1 64Kword
+298 	flash_block15 08730000 ffffffff 1 1 64Kword
+299 	flash_block14 08740000 ffffffff 1 1 64Kword
+300 	flash_block13 08750000 ffffffff 1 1 64Kword
+301 	flash_block12 08760000 ffffffff 1 1 64Kword
+302 	flash_block11 08770000 ffffffff 1 1 64Kword
+303 	*
+304 	flash_param_bank 08780000 ffffffff 1 1 512Kword
+305 	flash_block10 08780000 ffffffff 1 1 64Kword
+306 	flash_block9 08790000 ffffffff 1 1 64Kword
+307 	flash_block8 087a0000 ffffffff 1 1 64Kword
+308 	flash_block7 087b0000 ffffffff 1 1 64Kword
+309 	flash_block6 087c0000 ffffffff 1 1 64Kword
+310 	flash_block5 087d0000 ffffffff 1 1 64Kword
+311 	flash_block4 087e0000 ffffffff 1 1 64Kword
+312 	flash_block3 087f0000 ffffffff 1 1 16Kword
+313 	flash_block2 087f4000 ffffffff 1 1 16Kword
+314 	flash_block1 087f8000 ffffffff 1 1 16Kword
+315 	flash_block0 087fc000 ffffffff 1 1 16Kword
+316 	
+317 	*------------------------------------------------------------------------------------------
+318 	* user space
+319 	*------------------------------------------------------------------------------------------
+320 	* RegName RegAddr RegMask R W Description
+321 	*------------------------------------------------------------------------------------------
+322 	user_ipb_regs0 40000000 ffffffff 1 1
+323 	user_ipb_regs1 40000001 ffffffff 1 1
+324 	user_ipb_regs2 40000002 ffffffff 1 1
+325 	user_ipb_regs3 40000003 ffffffff 1 1
+326 	user_ipb_fifo_status 40000004 00000007 1 0
+327 	user_ipb_fifo_data 40000005 000fffff 1 0
+328 	user_ipb_fifo_read 40000006 ffffffff 1 1
+329 	user_ipb_regs7 40000007 ffffffff 1 1
+330 	user_ipb_regs8 40000008 ffffffff 1 1
+331 	user_ipb_regs9 40000009 ffffffff 1 1
+332 	user_ipb_regs10 4000000A ffffffff 1 1
+333 	user_ipb_regs11 4000000B ffffffff 1 1
+334 	user_ipb_regs12 4000000C ffffffff 1 1
+335 	user_ipb_regs13 4000000D ffffffff 1 1
+336 	user_ipb_regs14 4000000E ffffffff 1 1
+337 	user_ipb_regs15 4000000F ffffffff 1 1
+338 	user_ipb_regs16 40000010 ffffffff 1 1
+339 	user_ipb_regs17 40000011 ffffffff 1 1
+340 	user_ipb_regs18 40000012 ffffffff 1 1
+341 	user_ipb_regs19 40000013 ffffffff 1 1
+342 	user_ipb_regs20 40000014 ffffffff 1 1
+343 	user_ipb_regs21 40000015 ffffffff 1 1
+344 	user_ipb_mem 60000000 ffffffff 1 1
+345 	user_ipb_mem2 70000000 ffffffff 1 1
+346 	user_ipb_fifo1 70200000 ffffffff 1 1
+347 	*
+348 	user_wb_regs 80000000 ffffffff 1 1
+349 	
+350 	*------------------------------------------------------------------------------------------
+351 	* Charlie space
+352 	*------------------------------------------------------------------------------------------
+353 	in_stub_mem 40120000 ffffffff 1 1
+354 	Window_X_LUT 40040000 ffffffff 1 1
+355 	
+356 	
+357 	*#######################################################
+358 	*#######################################################
+359 	*#### the declarations below this point refer to the
+360 	*#### glib_bench_vtrx project (see user_vtrx_logic.vhd)
+361 	*#######################################################
+362 	*#######################################################
+363 	
+364 	
+365 	
+366 	
+367 	*-------------------------------------------------------
+368 	* user logic identifiers
+369 	*-------------------------------------------------------
+370 	user_board_id 80000000 ffffffff 1 0
+371 	user_board_id_char1 80000000 ff000000 1 0
+372 	user_board_id_char2 80000000 00ff0000 1 0
+373 	user_board_id_char3 80000000 0000ff00 1 0
+374 	user_board_id_char4 80000000 000000ff 1 0
+375 	user_sys_id 80000001 ffffffff 1 0
+376 	user_sys_id_char1 80000001 ff000000 1 0
+377 	user_sys_id_char2 80000001 00ff0000 1 0
+378 	user_sys_id_char3 80000001 0000ff00 1 0
+379 	user_sys_id_char4 80000001 000000ff 1 0
+380 	user_firmware_id 80000002 ffffffff 1 0
+381 	user_ver_major 80000002 f0000000 1 0
+382 	user_ver_minor 80000002 0f000000 1 0
+383 	user_ver_build 80000002 00ff0000 1 0
+384 	user_firmware_yy 80000002 0000fe00 1 0
+385 	user_firmware_mm 80000002 000001e0 1 0
+386 	user_firmware_dd 80000002 0000001f 1 0
+387 	*-------------------------------------------------------
+388 	* user fmc1 status
+389 	*-------------------------------------------------------
+390 	user_fmc1_gbt_status 80000004 ffffffff 1 0
+391 	fmc1_gbt_bitslips 80000004 000000ff 1 0
+392 	fmc1_gbt_aligned 80000004 00000100 1 0
+393 	*-------------------------------------------------------
+394 	* user fmc1 bert1 results
+395 	*-------------------------------------------------------
+396 	user_fmc1_bert1_wrd_L 80000005 ffffffff 1 0
+397 	user_fmc1_bert1_wrd_H 80000006 ffffffff 1 0
+398 	user_fmc1_bert1_err_L 80000007 ffffffff 1 0
+399 	user_fmc1_bert1_err_H 80000008 ffffffff 1 0
+400 	*-------------------------------------------------------
+401 	* user sfp status
+402 	*-------------------------------------------------------
+403 	user_sfp_gbt_status 8000000a ffffffff 1 0
+404 	sfp_gbt_bitslips 8000000a 000000ff 1 0
+405 	sfp_gbt_aligned 8000000a 00000100 1 0
+406 	*-------------------------------------------------------
+407 	* user sfp bert1 results
+408 	*-------------------------------------------------------
+409 	user_sfp_bert1_wrd_L 8000000b ffffffff 1 0
+410 	user_sfp_bert1_wrd_H 8000000c ffffffff 1 0
+411 	user_sfp_bert1_err_L 8000000d ffffffff 1 0
+412 	user_sfp_bert1_err_H 8000000e ffffffff 1 0
+413 	
+414 	*-------------------------------------------------------
+415 	* user i2c reply
+416 	*-------------------------------------------------------
+417 	usr_i2c_reply 8000000f ffffffff 1 0
+418 	usr_i2c_reply_status 8000000f 0c000000 1 0
+419 	usr_i2c_reply_8b 8000000f 000000ff 1 0
+420 	usr_i2c_reply_16b 8000000f 0000ffff 1 0
+421 	*-------------------------------------------------------
+422 	* user fmc1 control registers
+423 	*-------------------------------------------------------
+424 	user_fmc1_bitslip_ctrl 80000010 ffffffff 1 1
+425 	fmc1_slide_enable 80000010 00010000 1 1
+426 	fmc1_slide_manual 80000010 00001000 1 1
+427 	fmc1_slide_run 80000010 00000100 1 1
+428 	fmc1_slide_nbr 80000010 0000001f 1 1
+429 	
+430 	user_fmc1_link_ctrl 80000011 ffffffff 1 1
+431 	fmc1_gtx_tx_reset 80000011 00000001 1 1
+432 	fmc1_gtx_tx_sync_rst 80000011 00000002 1 1
+433 	fmc1_gbt_tx_rst 80000011 00000004 1 1
+434 	fmc1_gtx_tx_pwrdown 80000011 00000030 1 1
+435 	fmc1_gtx_rx_rst 80000011 00000100 1 1
+436 	fmc1_gtx_rx_sync_rst 80000011 00000200 1 1
+437 	fmc1_gbt_rx_rst 80000011 00000400 1 1
+438 	fmc1_gtx_rx_pwrdown 80000011 00003000 1 1
+439 	fmc1_gtx_loopback 80000011 70000000 1 1
+440 	
+441 	user_fmc1_sram_ctrl 80000012 ffffffff 1 1
+442 	user_fmc1_gtx_ctrl 80000013 ffffffff 1 1
+443 	fmc1_diff_swing 80000013 0000000f 1 1
+444 	fmc1_pstemph 80000013 000001f0 1 1
+445 	fmc1_preemph 80000013 0000f000 1 1
+446 	fmc1_eqmix 80000013 00070000 1 1
+447 	fmc1_rxpol 80000013 00100000 1 1
+448 	fmc1_txpol 80000013 01000000 1 1
+449 	
+450 	user_fmc1_bert1_ctrl 80000014 ffffffff 1 1
+451 	fmc1_bert1_clear 80000014 00100000 1 1
+452 	fmc1_bert1_latch 80000014 00010000 1 1
+453 	fmc1_bert1_enable 80000014 00001000 1 1
+454 	fmc1_bert1_load 80000014 00000100 1 1
+455 	fmc1_bert1_latency 80000014 0000003f 1 1
+456 	*-------------------------------------------------------
+457 	* user i2c control
+458 	*-------------------------------------------------------
+459 	usr_i2c_settings 8000001e ffffffff 1 1
+460 	usr_i2c_enable 8000001e 00000800 1 1
+461 	usr_i2c_bus_select 8000001e 00000400 1 1
+462 	usr_i2c_prescaler 8000001e 000003ff 1 1
+463 	*
+464 	usr_i2c_command 8000001f ffffffff 1 1
+465 	usr_i2c_strobe 8000001f 80000000 1 1
+466 	usr_i2c_mode16 8000001f 02000000 1 1
+467 	usr_i2c_write 8000001f 00800000 1 1
+468 	usr_i2c_slvaddr_7b 8000001f 007f0000 1 1
+469 	usr_i2c_wrdata 8000001f 000000ff 1 1
+470 	*-------------------------------------------------------
+471 	* user sfp control registers
+472 	*-------------------------------------------------------
+473 	user_sfp_bitslip_ctrl 80000018 ffffffff 1 1
+474 	sfp_slide_enable 80000018 00010000 1 1
+475 	sfp_slide_manual 80000018 00001000 1 1
+476 	sfp_slide_run 80000018 00000100 1 1
+477 	sfp_slide_nbr 80000018 0000001f 1 1
+478 	
+479 	user_sfp_link_ctrl 80000019 ffffffff 1 1
+480 	sfp_gtx_tx_reset 80000019 00000001 1 1
+481 	sfp_gtx_tx_sync_rst 80000019 00000002 1 1
+482 	sfp_gbt_tx_rst 80000019 00000004 1 1
+483 	sfp_gtx_tx_pwrdown 80000019 00000030 1 1
+484 	sfp_gtx_rx_rst 80000019 00000100 1 1
+485 	sfp_gtx_rx_sync_rst 80000019 00000200 1 1
+486 	sfp_gbt_rx_rst 80000019 00000400 1 1
+487 	sfp_gtx_rx_pwrdown 80000019 00003000 1 1
+488 	sfp_gtx_loopback 80000019 70000000 1 1
+489 	
+490 	user_sfp_sram_ctrl 8000001a ffffffff 1 1
+491 	user_sfp_gtx_ctrl 8000001b ffffffff 1 1
+492 	sfp_diff_swing 8000001b 0000000f 1 1
+493 	sfp_pstemph 8000001b 000001f0 1 1
+494 	sfp_preemph 8000001b 0000f000 1 1
+495 	sfp_eqmix 8000001b 00070000 1 1
+496 	sfp_rxpol 8000001b 00100000 1 1
+497 	sfp_txpol 8000001b 01000000 1 1
+498 	
+499 	user_sfp_bert1_ctrl 8000001c ffffffff 1 1
+500 	sfp_bert1_clear 8000001c 00100000 1 1
+501 	sfp_bert1_latch 8000001c 00010000 1 1
+502 	sfp_bert1_enable 8000001c 00001000 1 1
+503 	sfp_bert1_load 8000001c 00000100 1 1
+504 	sfp_bert1_latency 8000001c 0000003f 1 1
+505 	*-------------------------------------------------------
+506 	* user fmc1 bert2
+507 	*-------------------------------------------------------
+508 	user_fmc1_bert2_wrd_L 80000025 ffffffff 1 0
+509 	user_fmc1_bert2_wrd_H 80000026 ffffffff 1 0
+510 	user_fmc1_bert2_err_L 80000027 ffffffff 1 0
+511 	user_fmc1_bert2_err_H 80000028 ffffffff 1 0
+512 	user_fmc1_bert2_ctrl 80000034 ffffffff 1 1
+513 	fmc1_bert2_clear 80000034 00100000 1 1
+514 	fmc1_bert2_latch 80000034 00010000 1 1
+515 	fmc1_bert2_enable 80000034 00001000 1 1
+516 	fmc1_bert2_load 80000034 00000100 1 1
+517 	fmc1_bert2_latency 80000034 0000003f 1 1
+518 	*-------------------------------------------------------
+519 	* user sfp bert2
+520 	*-------------------------------------------------------
+521 	user_sfp_bert2_wrd_L 8000002b ffffffff 1 0
+522 	user_sfp_bert2_wrd_H 8000002c ffffffff 1 0
+523 	user_sfp_bert2_err_L 8000002d ffffffff 1 0
+524 	user_sfp_bert2_err_H 8000002e ffffffff 1 0
+525 	user_sfp_bert2_ctrl 8000003c ffffffff 1 1
+526 	sfp_bert2_clear 8000003c 00100000 1 1
+527 	sfp_bert2_latch 8000003c 00010000 1 1
+528 	sfp_bert2_enable 8000003c 00001000 1 1
+529 	sfp_bert2_load 8000003c 00000100 1 1
+530 	sfp_bert2_latency 8000003c 0000003f 1 1
+531 	*-------------------------------------------------------
+532 	* user sfp pattern detector
+533 	*-------------------------------------------------------
+534 	user_sfp_slow_pd_pattrn 80000038 ffffffff 1 1
+535 	user_sfp_slow_pd_ctrl 80000039 ffffffff 1 1
+536 	sfp_slow_pd_chkwth 80000039 000000ff 1 1
+537 	sfp_slow_pd_dassdly 80000039 0000ff00 1 1
+538 	sfp_slow_pd_enable 80000039 00010000 1 1
+539 	user_sfp_fast_pd_pattrn 8000003e ffffffff 1 1
+540 	user_sfp_fast_pd_ctrl 8000003f ffffffff 1 1
+541 	sfp_fast_pd_chkwth 8000003f 000000ff 1 1
+542 	sfp_fast_pd_dassdly 8000003f 0000ff00 1 1
+543 	sfp_fast_pd_enable 8000003f 00010000 1 1
+544 	*-------------------------------------------------------
+545 	*user_wb_timer 80000100 ffffffff 1 0
+546 	
+547 	
+548 	
+549 	
+550 	
+
+
+© 2013 CollabNet. CollabNet is a registered trademark of CollabNet, Inc.

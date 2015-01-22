@@ -1,0 +1,89 @@
+C:\Users\LabView User\Documents\local GLIB\python_scripts\PyChips_1_4_1\scripts>
+python charlie_test.py
+
+--=======================================--
+  Opening GLIB with IP 192.168.0.111
+--=======================================--
+
+-> BOARD INFORMATION
+-> -----------------
+-> brd : G L I B
+-> sys : L A B
+-> ver : 3 . 2 . 0
+-> date: 18 / 4 / 2013
+
+-> hardware ID: 00 04 a3 6e 77 38
+[0L, 1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 0L]
+
+-> done
+
+--=======================================--
+
+
+
+C:\Users\LabView User\Documents\local GLIB\python_scripts\PyChips_1_4_1\scripts>
+python charlie_test.py
+
+--=======================================--
+  Opening GLIB with IP 192.168.0.111
+--=======================================--
+
+-> BOARD INFORMATION
+-> -----------------
+-> brd : G L I B
+-> sys : L A B
+-> ver : 3 . 2 . 0
+-> date: 18 / 4 / 2013
+
+-> hardware ID: 00 04 a3 6e 77 38
+[0L, 1L, 2L, 3L, 4L]
+
+-> done
+
+--=======================================--
+
+
+
+C:\Users\LabView User\Documents\local GLIB\python_scripts\PyChips_1_4_1\scripts>
+python charlie_test.py
+
+--=======================================--
+  Opening GLIB with IP 192.168.0.111
+--=======================================--
+
+-> BOARD INFORMATION
+-> -----------------
+-> brd : G L I B
+-> sys : L A B
+-> ver : 3 . 2 . 0
+-> date: 18 / 4 / 2013
+
+-> hardware ID: 00 04 a3 6e 77 38
+[5L, 6L, 7L, 8L, 0L]
+
+-> done
+
+--=======================================--
+
+
+
+C:\Users\LabView User\Documents\local GLIB\python_scripts\PyChips_1_4_1\scripts>
+python charlie_test.py
+
+--=======================================--
+  Opening GLIB with IP 192.168.0.111
+--=======================================--
+
+-> BOARD INFORMATION
+-> -----------------
+-> brd : G L I B
+-> sys : L A B
+-> ver : 3 . 2 . 0
+-> date: 18 / 4 / 2013
+
+-> hardware ID: 00 04 a3 6e 77 38
+[0L]
+
+-> done
+
+--=======================================--
