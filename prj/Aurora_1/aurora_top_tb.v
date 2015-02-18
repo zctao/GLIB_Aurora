@@ -29,69 +29,120 @@ module aurora_top_tb;
 	reg init_clk;
 	reg gt_refclk;
 	reg io_clk;
-	reg [0:31] tx_data;
-	reg tx_tvalid;
-	reg [0:3] tx_tkeep;
-	reg tx_tlast;
+	reg [0:31] tx_tdata_1;
+	reg tx_tvalid_1;
+	reg [0:3] tx_tkeep_1;
+	reg tx_tlast_1;
+	reg [0:31] tx_tdata_2;
+	reg tx_tvalid_2;
+	reg [0:3] tx_tkeep_2;
+	reg tx_tlast_2;
 
 	// Outputs
-	wire HARD_ERR_1;
-	wire SOFT_ERR_1;
-	wire FRAME_ERR_1;
-	wire HARD_ERR_2;
-	wire SOFT_ERR_2;
-	wire FRAME_ERR_2;
-	wire LANE_UP_1;
-	wire CHANNEL_UP_1;
-	wire LANE_UP_2;
-	wire CHANNEL_UP_2;
-	wire TXP1;
-	wire TXN1;
-	wire TXP2;
-	wire TXN2;
-	wire tx_tready;
-	wire [0:31] rx_data;
-	wire rx_tvalid;
-	wire [0:3] rx_tkeep;
-	wire rx_tlast;
-
+	wire hard_err_1;
+	wire soft_err_1;
+	wire frame_err_1;
+	wire hard_err_2;
+	wire soft_err_2;
+	wire frame_err_2;
+	wire lane_up_1;
+	wire channel_up_1;
+	wire lane_up_2;
+	wire channel_up_2;
+	wire tx_tready_1;
+	wire [0:31] rx_tdata_1;
+	wire rx_tvalid_1;
+	wire [0:3] rx_tkeep_1;
+	wire rx_tlast_1;
+	wire tx_tready_2;
+	wire [0:31] rx_tdata_2;
+	wire rx_tvalid_2;
+	wire [0:3] rx_tkeep_2;
+	wire rx_tlast_2;
+	
+	wire txp1;
+	wire txn1;
+	wire txp2;
+	wire txn2;
+	wire rxp1;
+	wire rxn1;
+	wire rxp2;
+	wire rxn2;
+	
+	assign rxp1 = txp2;
+	assign rxn1 = txn2;
+	assign rxp2 = txp1;
+	assign rxn2 = txn1;
+	
 	// Instantiate the Unit Under Test (UUT)
-	Aurora_test_top uut (
-		.RESET(reset), 
-		.HARD_ERR_1(HARD_ERR_1), 
-		.SOFT_ERR_1(SOFT_ERR_1), 
-		.FRAME_ERR_1(FRAME_ERR_1), 
-		.HARD_ERR_2(HARD_ERR_2), 
-		.SOFT_ERR_2(SOFT_ERR_2), 
-		.FRAME_ERR_2(FRAME_ERR_2), 
-		.LANE_UP_1(LANE_UP_1), 
-		.CHANNEL_UP_1(CHANNEL_UP_1), 
-		.LANE_UP_2(LANE_UP_2), 
-		.CHANNEL_UP_2(CHANNEL_UP_2), 
-		.INIT_CLK_1(init_clk), 
-		.INIT_CLK_2(init_clk), 
-		.GT_RESET_IN(reset), 
-		.GT_REFCLK1_1(gt_refclk), 
-		.GT_REFCLK1_2(gt_refclk), 
-		.io_clk_1(io_clk), 
-		.io_clk_2(io_clk), 
-		.RXP1(TXP2), 
-		.RXN1(TXN2), 
-		.TXP1(TXP1), 
-		.TXN1(TXN1), 
-		.RXP2(TXP1), 
-		.RXN2(TXN1), 
-		.TXP2(TXP2), 
-		.TXN2(TXN2), 
-		.tx_data(tx_data), 
-		.tx_tvalid(tx_tvalid), 
-		.tx_tready(tx_tready), 
-		.tx_tkeep(tx_tkeep), 
-		.tx_tlast(tx_tlast), 
-		.rx_data(rx_data), 
-		.rx_tvalid(rx_tvalid), 
-		.rx_tkeep(rx_tkeep), 
-		.rx_tlast(rx_tlast)
+	aurora_test_1 aurora_1
+	(
+		// User IO
+		.RESET(reset),
+		.HARD_ERR_I(hard_err_1),
+		.SOFT_ERR_I(soft_err_1),
+		.FRAME_ERR_I(frame_err_1),
+		.LANE_UP_I(lane_up_1),
+		.CHANNEL_UP_I(channel_up_1),
+		.INIT_CLK(init_clk),
+		.GT_RESET_IN(reset),
+	 
+		.GT_REFCLK1(gt_refclk),
+		.IO_CLK(io_clk),
+		// GT I/O
+		.RXP(rxp1),
+		.RXN(rxn1),
+		.TXP(txp1),
+		.TXN(txn1),
+		//TX Interface
+		.TX_DATA_I(tx_tdata_1),
+		.TX_TVALID_I(tx_tvalid_1),
+		.TX_TREADY_I(tx_tready_1),
+		.TX_TKEEP_I(tx_tkeep_1),
+		.TX_TLAST_I(tx_tlast_1),
+		//RX Interface
+		.RX_DATA_I(rx_tdata_1),
+		.RX_TVALID_I(rx_tvalid_1),
+		.RX_TKEEP_I(rx_tkeep_1),
+		.RX_TLAST_I(rx_tlast_1),
+	   //local tvalid signal for latency test
+		.LOCAL_TX_TVALID_OUT(),
+		.LOCAL_RX_TVALID_OUT()
+	);
+
+	aurora_test_2 aurora_2
+	(
+		// User IO
+		.RESET(reset),
+		.HARD_ERR_I(hard_err_2),
+		.SOFT_ERR_I(soft_err_2),
+		.FRAME_ERR_I(frame_err_2),
+		.LANE_UP_I(lane_up_2),
+		.CHANNEL_UP_I(channel_up_2),
+		.INIT_CLK(init_clk),
+		.GT_RESET_IN(reset),
+	 
+		.GT_REFCLK1(gt_refclk),
+		.IO_CLK(io_clk),
+		// GT I/O
+		.RXP(rxp2),
+		.RXN(rxn2),
+		.TXP(txp2),
+		.TXN(txn2),
+		//TX Interface
+		.TX_DATA_I(tx_tdata_2),
+		.TX_TVALID_I(tx_tvalid_2),
+		.TX_TREADY_I(tx_tready_2),
+		.TX_TKEEP_I(tx_tkeep_2),
+		.TX_TLAST_I(tx_tlast_2),
+		//RX Interface
+		.RX_DATA_I(rx_tdata_2),
+		.RX_TVALID_I(rx_tvalid_2),
+		.RX_TKEEP_I(rx_tkeep_2),
+		.RX_TLAST_I(rx_tlast_2),
+	   //local tvalid signal for latency test
+		.LOCAL_TX_TVALID_OUT(),
+		.LOCAL_RX_TVALID_OUT()
 	);
 
 	initial begin
@@ -100,10 +151,14 @@ module aurora_top_tb;
 		init_clk = 0;
 		gt_refclk = 0;
 		io_clk = 0;
-		tx_data = 0;
-		tx_tvalid = 0;
-		tx_tkeep = 0;
-		tx_tlast = 0;
+		tx_tdata_1 = 0;
+		tx_tvalid_1 = 0;
+		tx_tkeep_1 = 0;
+		tx_tlast_1 = 0;
+		tx_tdata_2 = 0;
+		tx_tvalid_2 = 0;
+		tx_tkeep_2 = 0;
+		tx_tlast_2 = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
@@ -112,16 +167,21 @@ module aurora_top_tb;
 		reset = 1'b1;
 		#1000
 		reset = 1'b0;
-		#16000
-		tx_data = 32'hcafebabe;
-		tx_tvalid = 1'b1;
-		tx_tkeep = 4'b0110;
-		tx_tlast = 1'b1;
-		//#32
-		//tx_data = 0;
-		//tx_tvalid = 0;
-		//tx_tkeep = 0;
-		//tx_tlast = 0;
+		#1600
+		
+		tx_tdata_1 = 32'hcafebabe;
+		tx_tvalid_1 = 1'b1;
+		tx_tkeep_1 = 4'b1111;
+		tx_tlast_1 = 1'b0;
+		
+		#32
+		tx_tdata_1 = 32'hdeadbeef;
+		tx_tvalid_1 = 1'b1;
+		tx_tkeep_1 = 4'b1111;
+		tx_tlast_1 = 1'b1;
+		
+		
+
 	end
 		
 	//clock

@@ -8,121 +8,121 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/aurora8b10b_2_exdes.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/aurora8b10b_2_exdes.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/aurora8b10b_2_reset_logic.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/aurora8b10b_2_reset_logic.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/cc_manager/aurora8b10b_2_standard_cc_module.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/cc_manager/aurora8b10b_2_standard_cc_module.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/clock_module/aurora8b10b_2_clock_module.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/clock_module/aurora8b10b_2_clock_module.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/gt/aurora8b10b_2_gtx.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/gt/aurora8b10b_2_gtx.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/gt/aurora8b10b_2_transceiver_wrapper.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/gt/aurora8b10b_2_transceiver_wrapper.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/traffic_gen_check/aurora8b10b_2_frame_check.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/traffic_gen_check/aurora8b10b_2_frame_check.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/traffic_gen_check/aurora8b10b_2_frame_gen.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/example_design/traffic_gen_check/aurora8b10b_2_frame_gen.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_aurora_lane_4byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_aurora_lane_4byte.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_aurora_pkg.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_aurora_pkg.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_axi_to_ll.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_axi_to_ll.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_channel_err_detect.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_channel_err_detect.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_channel_init_sm.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_channel_init_sm.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_chbond_count_dec_4byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_chbond_count_dec_4byte.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_err_detect_4byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_err_detect_4byte.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_global_logic.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_global_logic.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_hotplug.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_hotplug.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_idle_and_ver_gen.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_idle_and_ver_gen.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_lane_init_sm_4byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_lane_init_sm_4byte.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_left_align_control.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_left_align_control.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_left_align_mux.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_left_align_mux.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_ll_to_axi.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_ll_to_axi.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_output_mux.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_output_mux.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_output_switch_control.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_output_switch_control.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_rx_ll.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_rx_ll.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_rx_ll_deframer.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_rx_ll_deframer.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_rx_ll_pdu_datapath.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_rx_ll_pdu_datapath.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_sideband_output.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_sideband_output.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_ce_control.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_ce_control.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_count_control.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_count_control.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_mux.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_mux.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_switch_control.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_storage_switch_control.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_sym_dec_4byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_sym_dec_4byte.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_sym_gen_4byte.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_sym_gen_4byte.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_tx_ll.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_tx_ll.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_tx_ll_control.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_tx_ll_control.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_tx_ll_datapath.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_tx_ll_datapath.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_valid_data_counter.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/cornell_v0_tao2/ipcore_dir/aurora8b10b_2/src/aurora8b10b_2_valid_data_counter.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -1,13 +1,13 @@
-Release 14.7 reportgen P.20131013 (nt)
+Release 14.7 reportgen P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-NI-CRATE::  Thu Jan 22 17:32:33 2015
+PCPSB375::  Wed Feb 18 16:15:39 2015
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\reportgen.exe -intstyle ise
+D:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\reportgen.exe -intstyle ise
 -clock_regions -o glib_top glib_top.ncd 
 
 Loading device for application Rf_Device from file '6vlx130t.nph' in environment
-C:\Xilinx\14.7\ISE_DS\ISE\.
+D:\14.7\ISE_DS\ISE\.
    "glib_top" is an NCD, version 3.2, device xc6vlx130t, package ff1156, speed
 -1
 ReportGen:LoadDesign: 'glib_top.ncd'
