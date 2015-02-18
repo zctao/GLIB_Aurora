@@ -388,7 +388,7 @@ module ST_io_block(
 	
 	CLK_Timer timer_1to2  //measure latency from tx_tvalid_1 to rx_tvalid_2
 	(
-		.clk(io_clk),
+		.clk(init_clk),
 		.reset(reset_fsm),   //use state machine reset signal also to reset timer
 		.signal1(tx_tvalid_1),
 		.signal2(rx_tvalid_2),
@@ -397,7 +397,7 @@ module ST_io_block(
 	
 	CLK_Timer timer_2to1  //measure latency from tx_tvalid_2 to rx_tvalid_1
 	(
-		.clk(io_clk),
+		.clk(init_clk),
 		.reset(reset_fsm),   //use state machine reset signal also to reset timer
 		.signal1(tx_tvalid_2),
 		.signal2(rx_tvalid_1),
@@ -406,19 +406,19 @@ module ST_io_block(
 	
 	CLK_Timer timer_local_1to2  //measure latency from tx_tvalid_1 to rx_tvalid_2 directly from aurora core (without FIFO buffer)
 	(
-		.clk(io_clk),
+		.clk(init_clk),
 		.reset(reset_fsm),   //use state machine reset signal also to reset timer
 		.signal1(local_tx_tvalid_out_1),
-		.signal2(rx_tvalid_2),//ocal_rx_tvalid_out_2),
+		.signal2(local_rx_tvalid_out_2),
 		.out(latency_1to2_local)
 	);
 	
 	CLK_Timer timer_local_2to1  //measure latency from tx_tvalid_2 to rx_tvalid_1 directly from aurora core (without FIFO buffer)
 	(
-		.clk(io_clk),
+		.clk(init_clk),
 		.reset(reset_fsm),   //use state machine reset signal also to reset timer
 		.signal1(local_tx_tvalid_out_2),
-		.signal2(rx_tvalid_1),//local_rx_tvalid_out_1),
+		.signal2(local_rx_tvalid_out_1),
 		.out(latency_2to1_local)
 	);
 

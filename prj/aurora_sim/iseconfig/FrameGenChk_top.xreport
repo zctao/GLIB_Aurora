@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-01-20T15:26:26</DateModified>
+  <DateModified>2015-02-11T10:37:15</DateModified>
   <ModuleName>FrameGenChk_top</ModuleName>
   <SummaryTimeStamp>2014-10-22T16:39:43</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/iseconfig/FrameGenChk_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/iseconfig/FrameGenChk_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim\</ImplementationReportsDirectory>
   <DateInitialized>2014-10-10T14:55:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
