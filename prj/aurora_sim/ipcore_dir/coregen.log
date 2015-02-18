@@ -1,5 +1,309 @@
 INFO:sim:172 - Generating IP...
-Applying current project options...
-Finished applying current project options.
-Cancelled executing Tcl generator.
-Wrote CGP file for project 'aurora_data_fifo'.
+Resolving generics for 'aurora2line'...
+Applying external generics to 'aurora2line'...
+Delivering associated files for 'aurora2line'...
+WARNING:sim - Component aurora_8b10b_v8_3 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'aurora2line'...
+Delivering synthesis source files for 'aurora2line'...
+INFO:sim - Pre-processing HDL files for 'aurora2line'...
+WARNING:sim - Overwriting existing file
+   C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_c
+   g/aurora2line/doc/pg046-aurora-8b10b.pdf with file from view
+   xilinx_cgdocumentation
+Delivered 1 file into directory
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'aurora2line'...
+Generating metadata file...
+Generating ISE project...
+XCO file found: aurora2line.xco
+XMDF file found: aurora2line_xmdf.tcl
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/aurora2line_exdes.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/aurora2line_exdes.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/simulation/aurora2line_tb.v -view simulation -origin_type created
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_axi_to_ll.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_axi_to_ll.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_ll_to_axi.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_ll_to_axi.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_aurora_lane.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_aurora_lane.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_aurora_lane.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_aurora_lane.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_aurora_lane.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_aurora_lane.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/aurora2line_exdes.ucf -view all -origin_type created
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_channel_err_detect.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_channel_err_detect.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_channel_init_sm.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_channel_init_sm.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_chbond_count_dec.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_chbond_count_dec.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_chbond_count_dec.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_chbond_count_dec.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/clock_module/aurora2line_clock_module.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/clock_module/aurora2line_clock_module.v" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_err_detect.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_err_detect.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_err_detect.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_err_detect.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_err_detect.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_err_detect.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/traffic_gen_check/aurora2line_frame_check.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/traffic_gen_check/aurora2line_frame_check.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/traffic_gen_check/aurora2line_frame_gen.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/traffic_gen_check/aurora2line_frame_gen.v" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_global_logic.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_global_logic.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_idle_and_ver_gen.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_idle_and_ver_gen.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_lane_init_sm.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_lane_init_sm.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_lane_init_sm.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_lane_init_sm.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_lane_init_sm.v -view all -origin_type created
+INFO:TclTasksC - File
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_lane_init_sm.v" is already present in the
+   project
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/aurora2line_reset_logic.v -view all -origin_type
+created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/aurora2line_reset_logic.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/gt/aurora2line_transceiver_wrapper.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/gt/aurora2line_transceiver_wrapper.v" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/gt/aurora2line_gtx.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/gt/aurora2line_gtx.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_rx_ll.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_rx_ll.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_rx_ll_pdu_datapath.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_rx_ll_pdu_datapath.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/cc_manager/aurora2line_standard_cc_module.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/cc_manager/aurora2line_standard_cc_module.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_sym_dec.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_sym_dec.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_sym_gen.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_sym_gen.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_tx_ll_control.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_tx_ll_control.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_tx_ll_datapath.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_tx_ll_datapath.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_tx_ll.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_tx_ll.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/v6_icon.ngc -view all -origin_type created
+Checking file
+"C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/
+aurora2line/example_design/v6_icon.ngc" for project device match ...
+WARNING:ProjectMgmt - The file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/v6_icon.ngc" device information,
+   6vlx75tff484-3, does not match the current project device,
+   xc6vlx130tff1156-1.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/example_design/v6_vio.ngc -view all -origin_type created
+Checking file
+"C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/
+aurora2line/example_design/v6_vio.ngc" for project device match ...
+WARNING:ProjectMgmt - The file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/example_design/v6_vio.ngc" device information,
+   xc6vlx75t-ff484-3, does not match the current project device,
+   xc6vlx130tff1156-1.
+Adding
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/a
+urora2line/src/aurora2line_hotplug.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_
+   cg/aurora2line/src/aurora2line_hotplug.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING: This core does not have a top level called "/aurora2line"
+WARNING: Top level has been set to "/aurora2line_exdes"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'aurora2line'.

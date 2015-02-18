@@ -8,5 +8,20 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Component aurora_8b10b_v8_3 does not have a valid model name for Verilog synthesis</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;aurora2line&apos;...</arg>
+</msg>
+
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/tmp/_cg/aurora2line/doc/pg046-aurora-8b10b.pdf with file from view xilinx_cgdocumentation</arg>
+</msg>
+
+<msg type="info" file="sim" num="949" delta="new" >Finished generation of ASY schematic symbol.
+</msg>
+
+<msg type="info" file="sim" num="948" delta="new" >Finished FLIST file generation.
+</msg>
+
 </messages>
 

@@ -8,118 +8,88 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/aurora8b10b_exdes.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/aurora2line_exdes.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/aurora8b10b_reset_logic.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/aurora2line_reset_logic.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/cc_manager/aurora8b10b_standard_cc_module.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/cc_manager/aurora2line_standard_cc_module.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/clock_module/aurora8b10b_clock_module.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/clock_module/aurora2line_clock_module.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_gtx.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/gt/aurora2line_gtx.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/gt/aurora8b10b_transceiver_wrapper.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/gt/aurora2line_transceiver_wrapper.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_check.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/traffic_gen_check/aurora2line_frame_check.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/example_design/traffic_gen_check/aurora8b10b_frame_gen.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/example_design/traffic_gen_check/aurora2line_frame_gen.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_aurora_lane_4byte.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/simulation/aurora2line_tb.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_axi_to_ll.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_aurora_lane.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_channel_err_detect.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_axi_to_ll.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_channel_init_sm.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_channel_err_detect.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_chbond_count_dec_4byte.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_channel_init_sm.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_err_detect_4byte.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_chbond_count_dec.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_global_logic.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_err_detect.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_hotplug.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_global_logic.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_idle_and_ver_gen.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_hotplug.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_lane_init_sm_4byte.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_idle_and_ver_gen.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_control.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_lane_init_sm.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_left_align_mux.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_ll_to_axi.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_ll_to_axi.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_rx_ll.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_output_mux.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_rx_ll_pdu_datapath.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_output_switch_control.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_sym_dec.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_sym_gen.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_deframer.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_tx_ll.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_rx_ll_pdu_datapath.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_tx_ll_control.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_sideband_output.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_ce_control.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_count_control.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_mux.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_storage_switch_control.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_sym_dec_4byte.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_sym_gen_4byte.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_control.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_tx_ll_datapath.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/LabView User/Documents/ztaotest/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora8b10b/src/aurora8b10b_valid_data_counter.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/aurora_sim/ipcore_dir/aurora2line/src/aurora2line_tx_ll_datapath.v&quot; into library work</arg>
 </msg>
 
 </messages>
