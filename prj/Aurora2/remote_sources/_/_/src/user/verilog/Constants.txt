@@ -1,0 +1,145 @@
+// Collection of constants for the CMS trigger that I do not want buried in the code
+
+// Be sure to use [ `include "Constants.txt' ] whenever any of these constants are needed.
+// Also, be sure to use the backtic [ ` ] when the constant is actually used.
+
+// Only define these constants once.
+`ifndef CONSTANTS_INCLUDED
+  `define CONSTANTS_INCLUDED
+
+	// Define 8-bit constants to hold info about code version and functionality
+	// major revision of Xilinx code
+	`define	MAJOR_REV	8'd1
+	// minor revision of Xilinx code
+	`define	MINOR_REV	8'd1
+
+	// The number of bits used to encode the (x, z) index and coordinates of a stub.
+	// The index is just on a module. The physical coordinates have a more global aspect.
+	// There are +/- 500 pixels in the (x) direction, so a 10-bit index is needed.
+	// The physical coordinate is in units of 1/8th pixel, so 3 more bits are needed
+	// for the coordinate. Even more bits will be needed if the (x) direction is measured
+	// in terms of a sector or the entire detector.
+	// There are 80 pixels per module in the (z) direction, so a 7-bit index is needed
+	// There are 80 pixels per module times 54 modules per rod = 4320 pixels in the
+	// (z) direction, so a global index for a rod would need a 13-bit number.
+	// The physical coordinate is in units of 1/8th pixel, so 3 more bits are needed
+	// for the coordinate.
+	`define STUB_X_IDX_BITS  10
+	`define STUB_X_PHY_BITS  13
+	`define STUB_Z_IDX_BITS  7
+	`define STUB_Z_PHY_BITS  16
+	
+	// Define a structure for stub data.
+	`define STUB_X_IDX_LSB    0                                     // 0
+	`define STUB_X_IDX_MSB    `STUB_X_IDX_LSB + `STUB_X_IDX_BITS-1  // 0+10-1=9
+	`define STUB_X_PHY_LSB    `STUB_X_IDX_MSB+1                     // 9+1=10
+	`define STUB_X_PHY_MSB    `STUB_X_PHY_LSB + `STUB_X_PHY_BITS-1  // 10+13-1=22
+	`define STUB_Z_IDX_LSB    `STUB_X_PHY_MSB + 1                   // 22+1=23
+	`define STUB_Z_IDX_MSB    `STUB_Z_IDX_LSB + `STUB_Z_IDX_BITS-1  // 23+7-1=29
+	`define STUB_Z_PHY_LSB    `STUB_Z_IDX_MSB+1                     // 29+1=30
+	`define STUB_Z_PHY_MSB    `STUB_Z_PHY_LSB + `STUB_Z_PHY_BITS-1  // 30+16-1=45
+	`define STRUCT_STUB_BITS	`STUB_Z_PHY_MSB + 1
+	
+	// The number of bits used to encode the crossing number
+	// At 40 MHz, an 8 bit number covers 6.4 usec
+	`define CROSSING_NUMBER_BITS 8
+	
+	// The maximum number of stubs from a module per crossing. There is debate about this number.
+	// We have been speculating that we can transmit data from 4 stubs in the 40 MHz crossing interval,
+	// and that we may allow up to 4 crossings to get all of the data out of a module.
+	// This would yield a maximum of 16 stubs per module per crossing.
+	`define MAX_STUBS 16
+	
+	// The number of bits used to encode the maximum number of stubs that the tracklet search
+	// code will see in a single crossing.  If MAX_STUBS = 16 and we need to count down to zero,
+	// this needs a 5-bit number.
+	`define STUB_CNT_BITS 5
+	
+	// The number of bits used to create an address in the stub memory. For the Virtex-7,
+	// the smallest address space for a block memory is 512 words, which needs 9 bits.
+	// If MAX_STUBS = 16, then we can fit 32 crossings in the memory, with each crossing
+	// starting on 16-word boundaries (address bits 3:0 = 4'b0000). The upper address bits
+	// will come from the low bits of the crossing number. So address bits 8:4 come from
+	// crossing number bits 4:0. The first address of each
+	// buffer will use CROSS_NUM_BUF_ADR_BITS in the high bits and zero in the low bits
+	`define STUB_ADR_BITS 9
+	`define CROSS_NUM_BUF_ADR_BITS 5
+
+	// Define a structure for stub count data
+	// Stub counts and crossing number for a crossing are packed in a word. 
+	`define STUB_CNT_IN_LSB      0                                        // 0
+	`define STUB_CNT_IN_MSB      `STUB_CNT_IN_LSB + `STUB_CNT_BITS -1     // 0+5-1=4
+	`define STUB_CNT_OUT_A_LSB   `STUB_CNT_IN_MSB + 1                     // 4+1=5
+	`define STUB_CNT_OUT_A_MSB   `STUB_CNT_OUT_A_LSB + `STUB_CNT_BITS -1  // 5+5-1=9
+	`define STUB_CNT_OUT_B_LSB   `STUB_CNT_OUT_A_MSB + 1                  // 9+1=10
+	`define STUB_CNT_OUT_B_MSB   `STUB_CNT_OUT_B_LSB + `STUB_CNT_BITS -1  // 10+5-1=14
+	`define STUB_CNT_OUT_C_LSB   `STUB_CNT_OUT_B_MSB + 1                  // 14+1=15
+	`define STUB_CNT_OUT_C_MSB   `STUB_CNT_OUT_C_LSB + `STUB_CNT_BITS -1  // 15+5-1=19
+	`define CROSSING_NUM_LSB     `STUB_CNT_OUT_C_MSB + 1                  // 19+1=20
+	`define CROSSING_NUM_MSB     `CROSSING_NUM_LSB + `CROSSING_NUMBER_BITS -1   // 20+8-1=27
+	`define STRUCT_STUB_CNT_BITS	`CROSSING_NUM_MSB + 1
+	
+	// The number of bits to address all of the window search parameters. There are separate tables for (x)
+	// and (z). Each is sized by the number of pixels on a module. 
+	// There are 1000 pixels in the (x) direction, so 10 bits are needed.
+	// There are 80 pixels in the (z) direction, so 7 bits are needed.
+	`define WINDOW_X_ADR_BITS 10
+	`define WINDOW_Z_ADR_BITS 7
+	
+	// The number of bits needed to define the search window width or length. The search window is always
+	// specified as a 'delta' from the current location. For (z), we need to cover the most space at high eta
+	// values (eta = 2.5). For (x), we need to cover the most space for low momentum tracks in the outer-most layer.
+	// 
+	`define WINDOW_X_DAT_BITS 12
+	`define WINDOW_Z_DAT_BITS 13
+	
+	// The maximum number of tracklets from a module pair per crossing.
+	`define MAX_TRACKLETS 16
+
+	// The number of bits used to encode the maximum number of tracklets that the tracklet search
+	// code will generate from a single crossing.  If MAX_TRACKLETS = 16 and we need to count up from zero,
+	// this needs a 5-bit number.
+	`define TRACKLET_CNT_BITS 5
+
+	// Define a structure for tracklet count data
+	// Pack tracklet count data into the tracklet count fifo
+	`define TRACKLET_CNT_A_LSB			0                                            // 0
+	`define TRACKLET_CNT_A_MSB    	`TRACKLET_CNT_A_LSB + `TRACKLET_CNT_BITS-1   // 0+5-1=4
+	`define TRACKLET_CNT_B_LSB			`TRACKLET_CNT_A_MSB + 1                      // 4+1=5
+	`define TRACKLET_CNT_B_MSB			`TRACKLET_CNT_B_LSB + `TRACKLET_CNT_BITS-1   // 5+5-1=9
+	`define TRACKLET_CNT_C_LSB    	`TRACKLET_CNT_B_MSB + 1                      // 9+1=10
+	`define TRACKLET_CNT_C_MSB    	`TRACKLET_CNT_C_LSB + `TRACKLET_CNT_BITS-1   // 5+10-1=14
+	`define STRUCT_TRACKLET_CNT_BITS	15  // input width of fifo
+	
+	// Define a structure for tracklet data
+	// pack final tracklet data formed from a matched pair of stubs data into the tracklet fifo
+	`define TRACKLET_IN_STUB_X_IDX_LSB		0                                                  // 0
+	`define TRACKLET_IN_STUB_X_IDX_MSB		`TRACKLET_IN_STUB_X_IDX_LSB + `STUB_X_IDX_BITS-1   // 0+10-1=9
+	`define TRACKLET_IN_STUB_X_PHY_LSB		`TRACKLET_IN_STUB_X_IDX_MSB + 1                    // 9+1=10
+	`define TRACKLET_IN_STUB_X_PHY_MSB		`TRACKLET_IN_STUB_X_PHY_LSB + `STUB_X_PHY_BITS-1   // 10+13-1=22
+	`define TRACKLET_IN_STUB_Z_IDX_LSB		`TRACKLET_IN_STUB_X_PHY_MSB + 1                    // 22+1=23
+	`define TRACKLET_IN_STUB_Z_IDX_MSB		`TRACKLET_IN_STUB_Z_IDX_LSB + `STUB_Z_IDX_BITS-1   // 23+7-1=29
+	`define TRACKLET_IN_STUB_Z_PHY_LSB		`TRACKLET_IN_STUB_Z_IDX_MSB + 1                    // 29+1=30
+	`define TRACKLET_IN_STUB_Z_PHY_MSB		`TRACKLET_IN_STUB_Z_PHY_LSB + `STUB_Z_PHY_BITS-1   // 30+16-1=45
+	`define TRACKLET_OUT_STUB_X_IDX_LSB		`TRACKLET_IN_STUB_Z_PHY_MSB + 1                    // 45+1=46
+	`define TRACKLET_OUT_STUB_X_IDX_MSB		`TRACKLET_OUT_STUB_X_IDX_LSB + `STUB_X_IDX_BITS-1  // 46+10-1=55
+	`define TRACKLET_OUT_STUB_X_PHY_LSB		`TRACKLET_OUT_STUB_X_IDX_MSB + 1                   // 55+1=56
+	`define TRACKLET_OUT_STUB_X_PHY_MSB		`TRACKLET_OUT_STUB_X_PHY_LSB + `STUB_X_PHY_BITS-1  // 56+13-1=68
+	`define TRACKLET_OUT_STUB_Z_IDX_LSB		`TRACKLET_OUT_STUB_X_PHY_MSB + 1                   // 68+1=69
+	`define TRACKLET_OUT_STUB_Z_IDX_MSB		`TRACKLET_OUT_STUB_Z_IDX_LSB + `STUB_Z_IDX_BITS-1  // 69+7-1=75
+	`define TRACKLET_OUT_STUB_Z_PHY_LSB		`TRACKLET_OUT_STUB_Z_IDX_MSB + 1                   // 75+1=76
+	`define TRACKLET_OUT_STUB_Z_PHY_MSB		`TRACKLET_OUT_STUB_Z_PHY_LSB + `STUB_Z_PHY_BITS-1  // 76+16-1= 91
+	`define TRACKLET_CROSSING_NUM_LSB		`TRACKLET_OUT_STUB_Z_PHY_MSB + 1                   // 91+1=92
+	`define TRACKLET_CROSSING_NUM_MSB		`TRACKLET_CROSSING_NUM_LSB + `CROSSING_NUMBER_BITS -1    // 92+8-1=99
+	`define STRUCT_TRACKLET_DATA_BITS		`TRACKLET_CROSSING_NUM_MSB+1								// 99+1=100
+
+	// Constants used in the track parameter calculations
+	// For now, make them match the DSP slice port
+	`define DeltaOverR_BITS    18
+	`define DeltaOverDX_BITS   18
+	`define TwoOverOuterR_BITS 22
+	`define DXOverR_BITS       18
+	`define DXrsq_BITS         18
+	`define ROverDX_BITS       18
+	
+`endif

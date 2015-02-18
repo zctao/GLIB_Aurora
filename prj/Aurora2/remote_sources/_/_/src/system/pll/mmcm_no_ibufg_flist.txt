@@ -1,0 +1,3 @@
+# Output products list for <mmcm_no_ibufg>
+mmcm_no_ibufg.xco
+mmcm_no_ibufg_flist.txt

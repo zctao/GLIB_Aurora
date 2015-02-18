@@ -1,0 +1,5 @@
+<message-tags>
+ <tag num="1401" task="xst" type="ERROR" hcolor="Red" file="HDLCompiler" />
+ <tag num="1127" task="xst" type="WARNING" hcolor="Red" args="rx_data_width_i" file="HDLCompiler" />
+ <tag num="1127" task="xst" type="WARNING" hcolor="Red" args="rx_int_data_width_i" file="HDLCompiler" />
+</message-tags>
