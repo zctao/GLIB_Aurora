@@ -254,7 +254,7 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\aurora_clock_module.v" Line 136: Assignment to <arg fmt="%s" index="1">clkout3_o</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v" Line 261: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v" Line 265: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 614: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
@@ -263,22 +263,22 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 617: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 618: Assignment to <arg fmt="%s" index="1">chbondi_not_used_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 618: Assignment to <arg fmt="%s" index="1">chbondi_not_used_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 626: Assignment to <arg fmt="%s" index="1">rx_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 626: Assignment to <arg fmt="%s" index="1">rx_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 627: Assignment to <arg fmt="%s" index="1">rx_int_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 627: Assignment to <arg fmt="%s" index="1">rx_int_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 628: Assignment to <arg fmt="%s" index="1">tx_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 628: Assignment to <arg fmt="%s" index="1">tx_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 629: Assignment to <arg fmt="%s" index="1">tx_int_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd" Line 629: Assignment to <arg fmt="%s" index="1">tx_int_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_lane_init_sm.vhd" Line 193: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_lane_init_sm.vhd" Line 193: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd" Line 256: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
@@ -287,7 +287,7 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd" Line 266: Assignment to <arg fmt="%s" index="1">chbondi</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd" Line 347: Assignment to <arg fmt="%s" index="1">open_txbufstatus</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd" Line 347: Assignment to <arg fmt="%s" index="1">open_txbufstatus</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_gtx.vhd" Line 428: Assignment to <arg fmt="%s" index="1">rxchariscomma_float_i</arg> ignored, since the identifier is never used
@@ -302,31 +302,31 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_gtx.vhd" Line 435: Assignment to <arg fmt="%s" index="1">rxnotintable_float_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_channel_init_sm.vhd" Line 207: Assignment to <arg fmt="%s" index="1">tied_to_vcc</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_channel_init_sm.vhd" Line 207: Assignment to <arg fmt="%s" index="1">tied_to_vcc</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_channel_init_sm.vhd" Line 208: Assignment to <arg fmt="%s" index="1">tied_to_gnd</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_channel_init_sm.vhd" Line 208: Assignment to <arg fmt="%s" index="1">tied_to_gnd</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_channel_init_sm.vhd" Line 181: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_channel_init_sm.vhd" Line 181: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_idle_and_ver_gen.vhd" Line 160: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_idle_and_ver_gen.vhd" Line 160: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_idle_and_ver_gen.vhd" Line 177: &lt;<arg fmt="%s" index="1">srl16</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_idle_and_ver_gen.vhd" Line 177: &lt;<arg fmt="%s" index="1">srl16</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_idle_and_ver_gen.vhd" Line 144: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_idle_and_ver_gen.vhd" Line 144: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_tx_ll_control.vhd" Line 161: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_tx_ll_control.vhd" Line 161: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\src\aurora_8b10b_1_tx_ll_control.vhd" Line 421: Assignment to <arg fmt="%s" index="1">channel_full_c</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v" Line 261: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v" Line 264: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 614: Assignment to <arg fmt="%s" index="1">tied_to_gnd_vec_i</arg> ignored, since the identifier is never used
@@ -335,22 +335,22 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 617: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 618: Assignment to <arg fmt="%s" index="1">chbondi_not_used_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 618: Assignment to <arg fmt="%s" index="1">chbondi_not_used_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 626: Assignment to <arg fmt="%s" index="1">rx_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 626: Assignment to <arg fmt="%s" index="1">rx_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 627: Assignment to <arg fmt="%s" index="1">rx_int_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 627: Assignment to <arg fmt="%s" index="1">rx_int_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 628: Assignment to <arg fmt="%s" index="1">tx_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 628: Assignment to <arg fmt="%s" index="1">tx_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 629: Assignment to <arg fmt="%s" index="1">tx_int_data_width_i</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd" Line 629: Assignment to <arg fmt="%s" index="1">tx_int_data_width_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_lane_init_sm.vhd" Line 193: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_lane_init_sm.vhd" Line 193: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd" Line 256: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
@@ -359,7 +359,7 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd" Line 266: Assignment to <arg fmt="%s" index="1">chbondi</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd" Line 347: Assignment to <arg fmt="%s" index="1">open_txbufstatus</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd" Line 347: Assignment to <arg fmt="%s" index="1">open_txbufstatus</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_gtx.vhd" Line 428: Assignment to <arg fmt="%s" index="1">rxchariscomma_float_i</arg> ignored, since the identifier is never used
@@ -374,25 +374,25 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_gtx.vhd" Line 435: Assignment to <arg fmt="%s" index="1">rxnotintable_float_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_channel_init_sm.vhd" Line 207: Assignment to <arg fmt="%s" index="1">tied_to_vcc</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_channel_init_sm.vhd" Line 207: Assignment to <arg fmt="%s" index="1">tied_to_vcc</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_channel_init_sm.vhd" Line 208: Assignment to <arg fmt="%s" index="1">tied_to_gnd</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_channel_init_sm.vhd" Line 208: Assignment to <arg fmt="%s" index="1">tied_to_gnd</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_channel_init_sm.vhd" Line 181: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_channel_init_sm.vhd" Line 181: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_idle_and_ver_gen.vhd" Line 160: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_idle_and_ver_gen.vhd" Line 160: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_idle_and_ver_gen.vhd" Line 177: &lt;<arg fmt="%s" index="1">srl16</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_idle_and_ver_gen.vhd" Line 177: &lt;<arg fmt="%s" index="1">srl16</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_idle_and_ver_gen.vhd" Line 144: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_idle_and_ver_gen.vhd" Line 144: &lt;<arg fmt="%s" index="1">fd</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_tx_ll_control.vhd" Line 161: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_tx_ll_control.vhd" Line 161: &lt;<arg fmt="%s" index="1">fdr</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\src\aurora_8b10b_2_tx_ll_control.vhd" Line 421: Assignment to <arg fmt="%s" index="1">channel_full_c</arg> ignored, since the identifier is never used
@@ -2081,34 +2081,34 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">io_wr_data&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rx_fifo</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v</arg>&quot; line <arg fmt="%s" index="2">221</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rx_fifo</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">DRPDO_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">DRPDO_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">DRDY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module.v</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">DRDY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">644</arg>: Output port &lt;<arg fmt="%s" index="3">CHANNEL_BOND_LOAD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_lane_0_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">644</arg>: Output port &lt;<arg fmt="%s" index="3">CHANNEL_BOND_LOAD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_lane_0_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">TXOUTCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">TXOUTCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">881</arg>: Output port &lt;<arg fmt="%s" index="3">LL_OP_DST_RDY_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ll_to_axi_pdu_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1.vhd</arg>&quot; line <arg fmt="%s" index="2">881</arg>: Output port &lt;<arg fmt="%s" index="3">LL_OP_DST_RDY_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ll_to_axi_pdu_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CHANNEL_UP</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD_Buffer</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">aurora_8b10b_1_CHBOND_COUNT_DEC</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD_Buffer</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">aurora_8b10b_1_CHBOND_COUNT_DEC</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RESET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2123,16 +2123,16 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">TXUSRCLK_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXCLKCORCNT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXCLKCORCNT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXPLLLKDET_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXPLLLKDET_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_1\example_design\gt\aurora_8b10b_1_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">RXRECCLK1_OUT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -2165,34 +2165,34 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">PLL_NOT_LOCKED</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v</arg>&quot; line <arg fmt="%s" index="2">217</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rx_fifo</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v</arg>&quot; line <arg fmt="%s" index="2">220</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rx_fifo</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">DRPDO_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v</arg>&quot; line <arg fmt="%s" index="2">281</arg>: Output port &lt;<arg fmt="%s" index="3">DRPDO_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">DRDY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i_2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\Aurora_Module_2.v</arg>&quot; line <arg fmt="%s" index="2">281</arg>: Output port &lt;<arg fmt="%s" index="3">DRDY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_module_i_2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">644</arg>: Output port &lt;<arg fmt="%s" index="3">CHANNEL_BOND_LOAD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_lane_0_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">644</arg>: Output port &lt;<arg fmt="%s" index="3">CHANNEL_BOND_LOAD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aurora_lane_0_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">RXRECCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">TXOUTCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">712</arg>: Output port &lt;<arg fmt="%s" index="3">TXOUTCLK2_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_wrapper_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">881</arg>: Output port &lt;<arg fmt="%s" index="3">LL_OP_DST_RDY_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ll_to_axi_pdu_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2.vhd</arg>&quot; line <arg fmt="%s" index="2">881</arg>: Output port &lt;<arg fmt="%s" index="3">LL_OP_DST_RDY_N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ll_to_axi_pdu_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CHANNEL_UP</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD_Buffer</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">aurora_8b10b_2_CHBOND_COUNT_DEC</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD_Buffer</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">aurora_8b10b_2_CHBOND_COUNT_DEC</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RESET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -2207,16 +2207,16 @@
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">TXUSRCLK_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXCLKCORCNT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXCLKCORCNT_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">RXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXPLLLKDET_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXPLLLKDET_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\ZhengchengTao\Documents\GLIB_Aurora\prj\Aurora2\ipcore_dir\aurora_8b10b_2\example_design\gt\aurora_8b10b_2_transceiver_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">273</arg>: Output port &lt;<arg fmt="%s" index="3">TXRESETDONE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXE1_INST</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">RXRECCLK1_OUT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -2446,7 +2446,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_1&gt; &lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_1&gt; &lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_2&gt; </arg>
@@ -2461,13 +2461,13 @@ It will be removed from the design.
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_pad_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_3&gt; &lt;rx_spa_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_ecp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_ecp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
@@ -2491,19 +2491,19 @@ It will be removed from the design.
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_pad_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_3&gt; &lt;rx_spa_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_1&gt; &lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_1&gt; &lt;prev_beat_spa_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_ecp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_ecp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_v_d_r_3&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">aurora1_rdbk_data3_reg_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">io_block</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">37 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;aurora1_rdbk_data3_reg_17&gt; &lt;aurora1_rdbk_data3_reg_18&gt; &lt;aurora1_rdbk_data3_reg_19&gt; &lt;aurora1_rdbk_data3_reg_20&gt; &lt;aurora1_rdbk_data3_reg_21&gt; &lt;aurora1_rdbk_data3_reg_22&gt; &lt;aurora1_rdbk_data3_reg_23&gt; &lt;aurora1_rdbk_data3_reg_24&gt; &lt;aurora1_rdbk_data3_reg_25&gt; &lt;aurora1_rdbk_data3_reg_26&gt; &lt;aurora1_rdbk_data3_reg_27&gt; &lt;aurora1_rdbk_data3_reg_28&gt; &lt;aurora1_rdbk_data3_reg_29&gt; &lt;aurora1_rdbk_data3_reg_30&gt; &lt;aurora1_rdbk_data3_reg_31&gt; &lt;aurora1_rdbk_stat3_reg_7&gt; &lt;aurora1_rdbk_stat3_reg_8&gt; &lt;aurora1_rdbk_stat3_reg_12&gt; &lt;aurora1_rdbk_stat3_reg_13&gt; &lt;aurora1_rdbk_stat3_reg_14&gt; &lt;aurora1_rdbk_stat3_reg_15&gt; &lt;aurora1_rdbk_stat3_reg_16&gt; &lt;aurora1_rdbk_stat3_reg_17&gt; &lt;aurora1_rdbk_stat3_reg_18&gt; &lt;aurora1_rdbk_stat3_reg_19&gt; &lt;aurora1_rdbk_stat3_reg_20&gt; &lt;aurora1_rdbk_stat3_reg_21&gt; &lt;aurora1_rdbk_stat3_reg_22&gt; &lt;aurora1_rdbk_stat3_reg_23&gt; &lt;aurora1_rdbk_stat3_reg_24&gt; &lt;aurora1_rdbk_stat3_reg_25&gt; &lt;aurora1_rdbk_stat3_reg_26&gt; &lt;aurora1_rdbk_stat3_reg_27&gt; &lt;aurora1_rdbk_stat3_reg_28&gt; &lt;aurora1_rdbk_stat3_reg_29&gt; &lt;aurora1_rdbk_stat3_reg_30&gt; &lt;aurora1_rdbk_stat3_reg_31&gt; </arg>
@@ -2932,7 +2932,7 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">aurora2_rdbk_data1_reg</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">ST_io_block</arg>&gt;.
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n0270</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n0270</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_packet_len_fifo</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -3070,7 +3070,7 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">udp_len_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sub_packetresp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;prev_beat_sp_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;got_a_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;prev_beat_sp_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;got_a_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_2&gt; </arg>
@@ -3079,19 +3079,19 @@ It will be removed from the design.
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_pad_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_3&gt; &lt;rx_spa_d_r_3&gt; &lt;got_a_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_3&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_scp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_scp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_1_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
@@ -3109,25 +3109,25 @@ It will be removed from the design.
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_cc_r_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_spa_d_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_sp_d_r_0&gt; &lt;prev_beat_v_d_r_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_pad_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_3&gt; &lt;rx_spa_d_r_3&gt; &lt;got_a_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;prev_beat_sp_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;got_a_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_scp_d_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_spa_d_r_1&gt; &lt;prev_beat_sp_d_r_1&gt; &lt;rx_spa_d_r_1&gt; &lt;got_a_d_r_1&gt; &lt;prev_beat_v_d_r_1&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_beat_sp_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_sp_d_r_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_scp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_ecp_d_r_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rx_scp_d_r_2&gt; &lt;rx_cc_r_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_3&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rx_v_d_r_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_8b10b_2_SYM_DEC</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_beat_v_d_r_3&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">testModeFsm_process.state</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">glib_sram_interface_ioControl</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;bistModeEnable_from_fsm&gt; </arg>
@@ -3355,16 +3355,16 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">got_a_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sof_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_ll_pdu_datapath_i</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">RX_SOF_N_Buffer</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_ll_pdu_datapath_i</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">RX_SOF_N_Buffer</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_ll_pdu_datapath_i</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">WARN_CC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">standard_cc_module_i</arg>&gt;.
@@ -3383,16 +3383,16 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">got_a_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">GOT_A_Buffer_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sym_dec_i</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sof_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_ll_pdu_datapath_i</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">RX_SOF_N_Buffer</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_ll_pdu_datapath_i</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">RX_SOF_N_Buffer</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">rx_ll_pdu_datapath_i</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">startErrInj_rr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bist</arg>&gt;.

@@ -96,9 +96,12 @@ module aurora_test_1 #
     output wire RX_TVALID_I,
     output wire [0:1] RX_TKEEP_I,
     output wire RX_TLAST_I,
+	 //user clock out
+	 output wire USER_CLK_OUT,
 	 //local tvalid signal for latency test
 	 output wire LOCAL_TX_TVALID_OUT,
 	 output wire LOCAL_RX_TVALID_OUT
+	 
 );
 
     // GT Reference Clock Interface
@@ -116,7 +119,7 @@ module aurora_test_1 #
     wire               do_cc_i;
     // System Interface
     //wire               pll_not_locked_i;
-    //wire               user_clk_i;
+    wire               user_clk_i;
     wire               sync_clk_i;
     //wire               reset_i;
     wire               power_down_i;
@@ -164,6 +167,7 @@ module aurora_test_1 #
 	 
 	 assign LOCAL_TX_TVALID_OUT = local_tx_tvalid_i;
 	 assign LOCAL_RX_TVALID_OUT = local_rx_tvalid_i;
+	 assign USER_CLK_OUT = user_clk_i;
 	 
 	 reg               lane_up_r;
     reg               lane_up_r2;

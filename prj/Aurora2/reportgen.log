@@ -1,7 +1,7 @@
 Release 14.7 reportgen P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-PCPSB375::  Wed Feb 18 16:16:25 2015
+PCPSB375::  Thu Feb 19 20:04:09 2015
 
 D:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\reportgen.exe -intstyle ise
 -clock_regions -o glib_top glib_top.ncd 

@@ -10,7 +10,7 @@ Target Device  : xc6vlx130t
 Target Package : ff1156
 Target Speed   : -1
 Mapper Version : virtex6 -- $Revision: 1.55 $
-Mapped Date    : Wed Feb 18 16:11:38 2015
+Mapped Date    : Thu Feb 19 19:58:59 2015
 
 Design Summary
 --------------
@@ -22,7 +22,7 @@ Slice Logic Utilization:
     Number used as Latches:                      5
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                6
-  Number of Slice LUTs:                      6,273 out of  80,000    7%
+  Number of Slice LUTs:                      6,294 out of  80,000    7%
     Number used as logic:                    5,844 out of  80,000    7%
       Number using O6 output only:           3,667
       Number using O5 output only:             428
@@ -41,20 +41,20 @@ Slice Logic Utilization:
         Number using O6 output only:           102
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:    205
-      Number with same-slice register load:    168
-      Number with same-slice carry load:        37
+    Number used exclusively as route-thrus:    226
+      Number with same-slice register load:    188
+      Number with same-slice carry load:        38
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 2,645 out of  20,000   13%
-  Number of LUT Flip Flop pairs used:        8,083
-    Number with an unused Flip Flop:         2,358 out of   8,083   29%
-    Number with an unused LUT:               1,810 out of   8,083   22%
-    Number of fully used LUT-FF pairs:       3,915 out of   8,083   48%
-    Number of unique control sets:             356
+  Number of occupied Slices:                 2,623 out of  20,000   13%
+  Number of LUT Flip Flop pairs used:        8,032
+    Number with an unused Flip Flop:         2,332 out of   8,032   29%
+    Number with an unused LUT:               1,738 out of   8,032   21%
+    Number of fully used LUT-FF pairs:       3,962 out of   8,032   49%
+    Number of unique control sets:             357
     Number of slice register sites lost
-      to control set restrictions:           1,260 out of 160,000    1%
+      to control set restrictions:           1,268 out of 160,000    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -113,9 +113,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.33
 
-Peak Memory Usage:  820 MB
-Total REAL time to MAP completion:  3 mins 29 secs 
-Total CPU time to MAP completion (all processors):   3 mins 33 secs 
+Peak Memory Usage:  824 MB
+Total REAL time to MAP completion:  3 mins 49 secs 
+Total CPU time to MAP completion (all processors):   3 mins 55 secs 
 
 Table of Contents
 -----------------
@@ -1278,33 +1278,20 @@ WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1
    _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_R
-   AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2
    _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3
-   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+   <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_R
+   AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_R
    AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RA
+   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RA
+   MC_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RA
    MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_
-   RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RA
-   MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_
-   RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_R
    AMC_D1_O> is incomplete. The signal does not drive any load pins in the design.
@@ -1312,29 +1299,42 @@ WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_R
    AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_
+   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3
+   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RA
+   MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RA
+   MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_
+   RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_
    RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RA
-   MC_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RA
-   MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_
+   RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/rxbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/rxbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/rxbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/rxbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/rxbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/txbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/txbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/rxbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:2235 - Port A and Port B clocks of BRAM instance,
    system/eth_B.phy_ipb_ctrl/packet_buffer/outbuf/buffer/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v6_noinit.
@@ -4848,15 +4848,15 @@ Area Group "pblock_sys"
   RANGE: SLICE_X56Y80:SLICE_X105Y119
   Slice Logic Utilization:
     Number of Slice Registers:           3,236 out of 16,000   20%
-    Number of Slice LUTs:                3,886 out of  8,000   48%
-      Number used as logic:              3,760
+    Number of Slice LUTs:                3,888 out of  8,000   48%
+      Number used as logic:              3,762
       Number used as Memory:               126
   Slice Logic Distribution:
-    Number of occupied Slices:           1,426 out of  2,000   71%
-    Number of LUT Flip Flop pairs used:  4,632
-      Number with an unused Flip Flop:   1,603 out of  4,632   34%
-      Number with an unused LUT:           685 out of  4,632   14%
-      Number of fully used LUT-FF pairs: 2,344 out of  4,632   50%
+    Number of occupied Slices:           1,388 out of  2,000   69%
+    Number of LUT Flip Flop pairs used:  4,616
+      Number with an unused Flip Flop:   1,601 out of  4,616   34%
+      Number with an unused LUT:           658 out of  4,616   14%
+      Number of fully used LUT-FF pairs: 2,357 out of  4,616   51%
   IO Utilization:
     Number of bonded IOBs:                   4
   Number of BUFG/BUFGCTRLs:                  2
@@ -4893,11 +4893,11 @@ Y159,SLICE_X0Y80:SLICE_X43Y119,SLICE_X0Y40:SLICE_X55Y79,SLICE_X0Y0:SLICE_X55Y39
       Number used as logic:              1,242
       Number used as Memory:                98
   Slice Logic Distribution:
-    Number of occupied Slices:             835 out of 18,000    4%
-    Number of LUT Flip Flop pairs used:  2,338
-      Number with an unused Flip Flop:     416 out of  2,338   17%
-      Number with an unused LUT:           891 out of  2,338   38%
-      Number of fully used LUT-FF pairs: 1,031 out of  2,338   44%
+    Number of occupied Slices:             850 out of 18,000    4%
+    Number of LUT Flip Flop pairs used:  2,299
+      Number with an unused Flip Flop:     397 out of  2,299   17%
+      Number with an unused LUT:           831 out of  2,299   36%
+      Number of fully used LUT-FF pairs: 1,071 out of  2,299   46%
   Number of RAMB36E1/FIFO36E1s:              4 out of    248    1%
     Number using RAMB36E1 only:              4
     Number using FIFO36E1 only:              0
