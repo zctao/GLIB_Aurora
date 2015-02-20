@@ -1,0 +1,15 @@
+# Output products list for <TS_out_stub_x_compare_dsp>
+TS_out_stub_x_compare_dsp.asy
+TS_out_stub_x_compare_dsp.gise
+TS_out_stub_x_compare_dsp.ngc
+TS_out_stub_x_compare_dsp.sym
+TS_out_stub_x_compare_dsp.v
+TS_out_stub_x_compare_dsp.veo
+TS_out_stub_x_compare_dsp.xco
+TS_out_stub_x_compare_dsp.xise
+TS_out_stub_x_compare_dsp\doc\dsp48_macro_ds754.pdf
+TS_out_stub_x_compare_dsp\doc\xbip_dsp48_macro_v2_1_readme.txt
+TS_out_stub_x_compare_dsp\doc\xbip_dsp48_macro_v2_1_vinfo.html
+TS_out_stub_x_compare_dsp_flist.txt
+TS_out_stub_x_compare_dsp_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/aurora_top_tb_isim_beh.exe" -prj "C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/aurora_top_tb_beh.prj" "work.aurora_top_tb" "work.glbl" 
