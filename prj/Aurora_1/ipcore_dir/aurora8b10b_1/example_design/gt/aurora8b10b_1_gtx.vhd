@@ -156,7 +156,7 @@ end AURORA8B10B_1_GTX;
 architecture RTL of AURORA8B10B_1_GTX is
 
   attribute core_generation_info        : string;
-  attribute core_generation_info of RTL : architecture is "aurora8b10b_1,aurora_8b10b_v8_3,{user_interface=AXI_4_Streaming,backchannel_mode=Sidebands,c_aurora_lanes=1,c_column_used=left,c_gt_clock_1=GTXQ0,c_gt_clock_2=None,c_gt_loc_1=1,c_gt_loc_10=X,c_gt_loc_11=X,c_gt_loc_12=X,c_gt_loc_13=X,c_gt_loc_14=X,c_gt_loc_15=X,c_gt_loc_16=X,c_gt_loc_17=X,c_gt_loc_18=X,c_gt_loc_19=X,c_gt_loc_2=X,c_gt_loc_20=X,c_gt_loc_21=X,c_gt_loc_22=X,c_gt_loc_23=X,c_gt_loc_24=X,c_gt_loc_25=X,c_gt_loc_26=X,c_gt_loc_27=X,c_gt_loc_28=X,c_gt_loc_29=X,c_gt_loc_3=X,c_gt_loc_30=X,c_gt_loc_31=X,c_gt_loc_32=X,c_gt_loc_33=X,c_gt_loc_34=X,c_gt_loc_35=X,c_gt_loc_36=X,c_gt_loc_37=X,c_gt_loc_38=X,c_gt_loc_39=X,c_gt_loc_4=X,c_gt_loc_40=X,c_gt_loc_41=X,c_gt_loc_42=X,c_gt_loc_43=X,c_gt_loc_44=X,c_gt_loc_45=X,c_gt_loc_46=X,c_gt_loc_47=X,c_gt_loc_48=X,c_gt_loc_5=X,c_gt_loc_6=X,c_gt_loc_7=X,c_gt_loc_8=X,c_gt_loc_9=X,c_lane_width=4,c_line_rate=31250,c_nfc=false,c_nfc_mode=IMM,c_refclk_frequency=125000,c_simplex=false,c_simplex_mode=TX,c_stream=false,c_ufc=false,flow_mode=None,interface_mode=Framing,dataflow_config=Duplex}";
+  attribute core_generation_info of RTL : architecture is "aurora8b10b_1,aurora_8b10b_v8_3,{user_interface=AXI_4_Streaming,backchannel_mode=Sidebands,c_aurora_lanes=1,c_column_used=left,c_gt_clock_1=GTXQ0,c_gt_clock_2=None,c_gt_loc_1=1,c_gt_loc_10=X,c_gt_loc_11=X,c_gt_loc_12=X,c_gt_loc_13=X,c_gt_loc_14=X,c_gt_loc_15=X,c_gt_loc_16=X,c_gt_loc_17=X,c_gt_loc_18=X,c_gt_loc_19=X,c_gt_loc_2=X,c_gt_loc_20=X,c_gt_loc_21=X,c_gt_loc_22=X,c_gt_loc_23=X,c_gt_loc_24=X,c_gt_loc_25=X,c_gt_loc_26=X,c_gt_loc_27=X,c_gt_loc_28=X,c_gt_loc_29=X,c_gt_loc_3=X,c_gt_loc_30=X,c_gt_loc_31=X,c_gt_loc_32=X,c_gt_loc_33=X,c_gt_loc_34=X,c_gt_loc_35=X,c_gt_loc_36=X,c_gt_loc_37=X,c_gt_loc_38=X,c_gt_loc_39=X,c_gt_loc_4=X,c_gt_loc_40=X,c_gt_loc_41=X,c_gt_loc_42=X,c_gt_loc_43=X,c_gt_loc_44=X,c_gt_loc_45=X,c_gt_loc_46=X,c_gt_loc_47=X,c_gt_loc_48=X,c_gt_loc_5=X,c_gt_loc_6=X,c_gt_loc_7=X,c_gt_loc_8=X,c_gt_loc_9=X,c_lane_width=4,c_line_rate=50000,c_nfc=false,c_nfc_mode=IMM,c_refclk_frequency=125000,c_simplex=false,c_simplex_mode=TX,c_stream=false,c_ufc=false,flow_mode=None,interface_mode=Framing,dataflow_config=Duplex}";
 --***************************** Wire Declarations *****************************
     -- ground and vcc signals
    signal  tied_to_ground_i                :   std_logic;
@@ -204,10 +204,10 @@ begin
         TX_CLK_SOURCE                           =>     (GTX_TX_CLK_SOURCE),
         TX_OVERSAMPLE_MODE                      =>     (FALSE),
         TXPLL_COM_CFG                           =>     (x"21680a"),
-        TXPLL_CP_CFG                            =>     (x"07"),
-        TXPLL_DIVSEL_FB                         =>     (5),
+        TXPLL_CP_CFG                            =>     (x"0D"),
+        TXPLL_DIVSEL_FB                         =>     (4),
         TXPLL_DIVSEL_OUT                        =>     (1),
-        TXPLL_DIVSEL_REF                        =>     (2),
+        TXPLL_DIVSEL_REF                        =>     (1),
         TXPLL_DIVSEL45_FB                       =>     (5),
         TXPLL_LKDET_CFG                         =>     ("111"),
         TX_CLK25_DIVIDER                        =>     (5),
@@ -266,10 +266,10 @@ begin
        ----------------------------RX PLL----------------------------
         RX_OVERSAMPLE_MODE                      =>     (FALSE),
         RXPLL_COM_CFG                           =>     (x"21680a"),
-        RXPLL_CP_CFG                            =>     (x"07"),
-        RXPLL_DIVSEL_FB                         =>     (5),
+        RXPLL_CP_CFG                            =>     (x"0D"),
+        RXPLL_DIVSEL_FB                         =>     (4),
         RXPLL_DIVSEL_OUT                        =>     (1),
-        RXPLL_DIVSEL_REF                        =>     (2),
+        RXPLL_DIVSEL_REF                        =>     (1),
         RXPLL_DIVSEL45_FB                       =>     (5),
         RXPLL_LKDET_CFG                         =>     ("111"),
         RX_CLK25_DIVIDER                        =>     (5),

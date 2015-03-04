@@ -55,14 +55,14 @@
 NET "GT_REFCLK1" TNM_NET = GT_REFCLK1;
 TIMESPEC TS_GTXQ0_LEFT_I = PERIOD "GT_REFCLK1" 125.0 MHz HIGH 50%;
 
-# User Clock Constraint: Value is selected based on the line rate (3.125 Gbps) and lane width (4-Byte)
+# User Clock Constraint: Value is selected based on the line rate (5.0 Gbps) and lane width (4-Byte)
 NET "user_clk_i" TNM_NET = USER_CLK;
-TIMESPEC TS_USER_CLK_I = PERIOD "USER_CLK" 78.125 MHz HIGH 50%;
-#TIMESPEC TS_USER_CLK_I = PERIOD "USER_CLK" 12.8 ns HIGH 50%;
-# Sync Clock Constraint: Value is selected based on the line rate (3.125 Gbps) and lane width (4-Byte)
+TIMESPEC TS_USER_CLK_I = PERIOD "USER_CLK" 125.0 MHz HIGH 50%;
+#TIMESPEC TS_USER_CLK_I = PERIOD "USER_CLK" 8.0 ns HIGH 50%;
+# Sync Clock Constraint: Value is selected based on the line rate (5.0 Gbps) and lane width (4-Byte)
 NET "sync_clk_i" TNM_NET = SYNC_CLK;
-TIMESPEC TS_SYNC_CLK_I = PERIOD "SYNC_CLK" 156.25 MHz HIGH 50%;
-#TIMESPEC TS_SYNC_CLK_I = PERIOD "SYNC_CLK" 6.4 ns HIGH 50%;
+TIMESPEC TS_SYNC_CLK_I = PERIOD "SYNC_CLK" 250.0 MHz HIGH 50%;
+#TIMESPEC TS_SYNC_CLK_I = PERIOD "SYNC_CLK" 4.0 ns HIGH 50%;
 
 NET GTXQ0_P  LOC=AK6;
 NET GTXQ0_N  LOC=AK5;

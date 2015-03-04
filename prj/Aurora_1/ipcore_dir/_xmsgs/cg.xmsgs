@@ -8,5 +8,40 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">A core named &apos;aurora8b10b_2&apos; already exists in the project. Output products for this core may be overwritten.</arg>
+</msg>
+
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">A core named &apos;aurora8b10b_2&apos; already exists in the project. Output products for this core may be overwritten.</arg>
+</msg>
+
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Component aurora_8b10b_v8_3 does not have a valid model name for VHDL synthesis</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;aurora8b10b_2&apos;...</arg>
+</msg>
+
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/ipcore_dir/tmp/_cg/aurora8b10b_2/doc/pg046-aurora-8b10b.pdf with file from view xilinx_cgdocumentation</arg>
+</msg>
+
+<msg type="info" file="sim" num="949" delta="old" >Finished generation of ASY schematic symbol.
+</msg>
+
+<msg type="warning" file="coreutil" num="0" delta="new" >WARNING:ProjectMgmt - The file
+   &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/ipcore_dir/tmp/_cg
+   /aurora8b10b_2/example_design/v6_vio.ngc&quot; device information,
+   xc6vlx75t-ff484-3, does not match the current project device,
+   xc6vlx130tff1156-1.
+Adding C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/ipcore_dir/tmp/_cg/aurora8b10b_2/src/aurora8b10b_2_hotplug.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/ipcore_dir/tmp/_cg
+   /aurora8b10b_2/src/aurora8b10b_2_hotplug.vhd&quot; into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING: This core does not have a top level called &quot;/aurora8b10b_2&quot;
+WARNING: Top level has been set to &quot;/aurora8b10b_2_exdes&quot;
+</msg>
+
+<msg type="info" file="sim" num="948" delta="old" >Finished FLIST file generation.
+</msg>
+
 </messages>
 

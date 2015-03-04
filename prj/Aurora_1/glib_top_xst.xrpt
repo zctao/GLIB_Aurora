@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Thu Feb 19 20:22:21 2015">
+  <application stringID="Xst" timeStamp="Tue Mar 03 21:35:29 2015">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -56,7 +56,7 @@
       <item DEFAULT="No" label="-rtlview" stringID="XST_RTLVIEW" value="Yes"/>
       <item DEFAULT="AllClockNets" label="-glob_opt" stringID="XST_GLOBOPT" value="AllClockNets"/>
       <item DEFAULT="Yes" label="-read_cores" stringID="XST_READCORES" value="YES"/>
-      <item DEFAULT="" label="-sd" stringID="XST_SD" value="{&quot;remote_sources/_/_/src/user/ipcore_dir&quot; &quot;ipcore_dir&quot; &quot;ipcore_dir/aurora8b10b_1/example_design&quot; &quot;ipcore_dir/aurora8b10b_2/example_design&quot; &quot;remote_sources/_/_/src/system/cdce/cdce_phase_mon_v2/dpram&quot; &quot;remote_sources/_/_/src/system/ipbus/ipbus_glib/dpbr8&quot; &quot;remote_sources/_/_/src/system/ipbus/ipbus_glib/dpbr_8_32&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/ezdma2_ctrl_dpram&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/ipbus_ctrl_dpram&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/slv_rd_fifo&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/slv_wr_fifo&quot; &quot;remote_sources/_/_/src/system/cdce/cdce_phase_mon_v2/pll&quot; &quot;remote_sources/_/_/src/system/pll&quot; &quot;C:/Users/ZhengchengTao/Desktop/Aurora_1/remote_sources/_/_/src/user/ipcore_dir&quot;  }"/>
+      <item DEFAULT="" label="-sd" stringID="XST_SD" value="{&quot;remote_sources/_/_/src/user/ipcore_dir&quot; &quot;ipcore_dir&quot; &quot;ipcore_dir/aurora8b10b_1/example_design&quot; &quot;ipcore_dir/aurora8b10b_2/example_design&quot; &quot;remote_sources/_/_/src/system/cdce/cdce_phase_mon_v2/dpram&quot; &quot;remote_sources/_/_/src/system/ipbus/ipbus_glib/dpbr8&quot; &quot;remote_sources/_/_/src/system/ipbus/ipbus_glib/dpbr_8_32&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/ezdma2_ctrl_dpram&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/ipbus_ctrl_dpram&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/slv_rd_fifo&quot; &quot;remote_sources/_/_/src/system/pcie/sys_pcie/ezdma2_ipbus_int/cores/slv_wr_fifo&quot; &quot;remote_sources/_/_/src/system/cdce/cdce_phase_mon_v2/pll&quot; &quot;remote_sources/_/_/src/system/pll&quot; &quot;C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/remote_sources/_/_/src/user/ipcore_dir&quot;  }"/>
       <item DEFAULT="No" label="-write_timing_constraints" stringID="XST_WRITETIMINGCONSTRAINTS" value="NO"/>
       <item DEFAULT="No" label="-cross_clock_analysis" stringID="XST_CROSSCLOCKANALYSIS" value="NO"/>
       <item DEFAULT="/" stringID="XST_HIERARCHYSEPARATOR" value="/"/>
@@ -321,8 +321,8 @@
     </section>
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="1158"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="610"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="1159"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="611"/>
     </section>
   </application>
 

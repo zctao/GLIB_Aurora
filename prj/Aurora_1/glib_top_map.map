@@ -4,15 +4,15 @@ Xilinx Map Application Log File for Design 'glib_top'
 Design Information
 ------------------
 Command Line   : map -filter
-C:/Users/ZhengchengTao/Desktop/Aurora_1/iseconfig/filter.filter -intstyle ise -p
-xc6vlx130t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication
-off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o
-glib_top_map.ncd glib_top.ngd glib_top.pcf 
+C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/iseconfig/filter.filte
+r -intstyle ise -p xc6vlx130t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0
+-register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off
+-power off -o glib_top_map.ncd glib_top.ngd glib_top.pcf 
 Target Device  : xc6vlx130t
 Target Package : ff1156
 Target Speed   : -1
 Mapper Version : virtex6 -- $Revision: 1.55 $
-Mapped Date    : Thu Feb 19 20:23:57 2015
+Mapped Date    : Tue Mar 03 21:37:02 2015
 
 Mapping design into LUTs...
 WARNING:MapLib:701 - Signal fmc1_la_p<0> connected to top level port
@@ -1009,11 +1009,11 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 38 secs 
+Total REAL time at the beginning of Placer: 39 secs 
 Total CPU  time at the beginning of Placer: 38 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:5051f4f6) REAL time: 48 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:5051f4f6) REAL time: 49 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:837 - Partially locked IO Bus is found. 
@@ -1222,7 +1222,7 @@ WARNING:Place - MMCM comp system/glib_pll/mmcm_adv_inst is driving load
    The load component should be of clock buffer type.
 ...
 ...
-..........................................
+.......................................
 WARNING:Place - MMCM comp system/glib_pll/mmcm_adv_inst is driving load
    system/sram1_if/sramInterfaceIoControl/ack_process.ack_ctrl_FSM_FFd3 (type FF)
    The load component should be of clock buffer type.
@@ -1348,10 +1348,10 @@ NET "system/gbt_phase_monitoring/sfp_ttclk_x6_cdce" TNM_NET = "TN_system/gbt_pha
 TIMEGRP "TN_system/gbt_phase_monitoring/sfp_ttclk_x6_cdce" AREA_GROUP = "CLKAG_system/gbt_phase_monitoring/sfp_ttclk_x6_cdce" ;
 AREA_GROUP "CLKAG_system/gbt_phase_monitoring/sfp_ttclk_x6_cdce" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4 ;
 
-# usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2 driven by BUFGCTRL_X0Y1
-NET "usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2" TNM_NET = "TN_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2" ;
-TIMEGRP "TN_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2" AREA_GROUP = "CLKAG_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2" ;
-AREA_GROUP "CLKAG_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1 ;
+# usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT driven by BUFGCTRL_X0Y1
+NET "usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT" TNM_NET = "TN_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT" ;
+TIMEGRP "TN_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT" AREA_GROUP = "CLKAG_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT" ;
+AREA_GROUP "CLKAG_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1 ;
 
 # usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/sync_clk_i driven by BUFGCTRL_X0Y6
 NET "usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/sync_clk_i" TNM_NET = "TN_usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/sync_clk_i" ;
@@ -1427,10 +1427,10 @@ Clock-Region: <CLOCKREGION_X0Y0>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |system/cdce_synch/clk_from_bufg_mux
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |system/sram_w[1]_clk
-      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    168 |user_ipb_clk
-      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    224 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/USER_CLK_OUT
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     10 |    180 |user_ipb_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    182 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/USER_CLK_OUT
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    401 | Total 
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     10 |    371 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -1445,13 +1445,13 @@ Clock-Region: <CLOCKREGION_X1Y0>
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
       0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |system/sram_w[1]_clk
-      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     34 |    259 |user_ipb_clk
-      2 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    186 |    636 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/USER_CLK_OUT
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     30 |    259 |user_ipb_clk
+      1 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    188 |    678 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/USER_CLK_OUT
       0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/sync_clk_i
+      2 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    144 |    517 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT
       0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/sync_clk_i
-      2 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    142 |    511 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      8 |      0 |      4 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |    362 |   1406 | Total 
+      6 |      0 |      4 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |    362 |   1454 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -1465,12 +1465,12 @@ Clock-Region: <CLOCKREGION_X0Y1>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    398 |system/sram_w[1]_clk
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    109 |system/sram_w[2]_clk
-      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |    101 |user_ipb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    397 |system/sram_w[1]_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    103 |system/sram_w[2]_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |     49 |user_ipb_clk
       1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_1/USER_CLK_OUT
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |    608 | Total 
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |    549 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -1484,12 +1484,12 @@ Clock-Region: <CLOCKREGION_X1Y1>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |system/sram_w[1]_clk
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |system/sram_w[2]_clk
-      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |    512 |user_ipb_clk
-      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     46 |    477 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/user_clk_out_2
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     29 |system/sram_w[1]_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |system/sram_w[2]_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     18 |    552 |user_ipb_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     44 |    343 |usr/trigger_top/stub_processing_all_modules/stub_processing_top_01/stub_tagging_top/io_block/aurora_i_2/USER_CLK_OUT
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     60 |    998 | Total 
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     62 |    930 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -1504,10 +1504,10 @@ Clock-Region: <CLOCKREGION_X0Y2>
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |system/clk_31_25_B_from_glib_pll
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    300 |system/sram_w[2]_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    301 |system/sram_w[2]_clk
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     49 |user_ipb_clk
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    350 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    351 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -1527,12 +1527,12 @@ Clock-Region: <CLOCKREGION_X1Y2>
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |system/gbt_phase_monitoring/fmc1_ttclk_x6_cdce
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |system/gbt_phase_monitoring/sfp_ttclk_x6_cdce
       0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     72 |    106 |system/gbt_phase_monitoring/ttclk_x6
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |system/sram_w[1]_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |system/sram_w[1]_clk
       0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |     26 |system/sram_w[2]_clk
       8 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    180 |   1054 |user_clk125_2_bufg
       4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     72 |   2011 |user_ipb_clk
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-     12 |      0 |      2 |      0 |      0 |      1 |      0 |      0 |      2 |      0 |      0 |    324 |   3253 | Total 
+     12 |      0 |      2 |      0 |      0 |      1 |      0 |      0 |      2 |      0 |      0 |    324 |   3232 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -1616,23 +1616,23 @@ Phase 9.5  Local Placement Optimization
 Phase 9.5  Local Placement Optimization (Checksum:3a43f7f7) REAL time: 3 mins 8 secs 
 
 Phase 10.8  Global Placement
-....................................................
-...........................................................................................................................
-.................................................................................................
-.........................................................................................
-Phase 10.8  Global Placement (Checksum:2aa4064e) REAL time: 3 mins 33 secs 
+.......................................................
+......................................................................................................................................................
+......................................................................................................................................
+.................................................................
+Phase 10.8  Global Placement (Checksum:d700cd39) REAL time: 3 mins 33 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:2aa4064e) REAL time: 3 mins 33 secs 
+Phase 11.5  Local Placement Optimization (Checksum:d700cd39) REAL time: 3 mins 34 secs 
 
 Phase 12.18  Placement Optimization
-Phase 12.18  Placement Optimization (Checksum:d80249f7) REAL time: 4 mins 6 secs 
+Phase 12.18  Placement Optimization (Checksum:6fcde7fe) REAL time: 4 mins 6 secs 
 
 Phase 13.5  Local Placement Optimization
-Phase 13.5  Local Placement Optimization (Checksum:d80249f7) REAL time: 4 mins 6 secs 
+Phase 13.5  Local Placement Optimization (Checksum:6fcde7fe) REAL time: 4 mins 6 secs 
 
 Phase 14.34  Placement Validation
-Phase 14.34  Placement Validation (Checksum:63a8ddca) REAL time: 4 mins 7 secs 
+Phase 14.34  Placement Validation (Checksum:d0e7ad26) REAL time: 4 mins 6 secs 
 
 Total REAL time to Placer completion: 4 mins 8 secs 
 Total CPU  time to Placer completion: 4 mins 13 secs 
@@ -1641,28 +1641,28 @@ Writing output files...
 WARNING:PhysDesignRules:372 - Gated clock. Clock net system/spi/reset_i_cpol_i_AND_187_o is sourced by a combinatorial
    pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1
-   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3
-   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_R
    AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2
-   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_R
-   AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_R
    AMC_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_R
    AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/fmc1_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_R
+   AMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2
+   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1
+   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/fmc1_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3
+   _RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_RA
    MC_D1_O> is incomplete. The signal does not drive any load pins in the design.
@@ -1673,19 +1673,19 @@ WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_RA
    MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RA
-   MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
-   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_
-   RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram1_
    RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/packet_buffer/inbuf/Mram_rqlen1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal
    <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_
    RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/status_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram3_
+   RAMD_D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <system/gbt_phase_monitoring/sfp_cdce_pm/ctrl_dpram/U0/xst_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/Mram_ram2_RA
+   MD_D1_O> is incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/rxbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.fmc2_ipb_ctrl/rxbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
@@ -1698,9 +1698,9 @@ WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/rxbuf/Mram_p
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/rxbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
-   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <system/eth_B.phy_ipb_ctrl/txbuf/Mram_packet_len_fifo2_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:2235 - Port A and Port B clocks of BRAM instance,
    system/eth_B.phy_ipb_ctrl/packet_buffer/outbuf/buffer/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/v6_noinit.
@@ -1743,9 +1743,9 @@ Slice Logic Utilization:
     Number used as Latches:                      5
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                6
-  Number of Slice LUTs:                      6,909 out of  80,000    8%
-    Number used as logic:                    6,281 out of  80,000    7%
-      Number using O6 output only:           4,040
+  Number of Slice LUTs:                      6,849 out of  80,000    8%
+    Number used as logic:                    6,282 out of  80,000    7%
+      Number using O6 output only:           4,041
       Number using O5 output only:             429
       Number using O5 and O6:                1,812
       Number used as ROM:                        0
@@ -1762,17 +1762,17 @@ Slice Logic Utilization:
         Number using O6 output only:           224
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:    282
-      Number with same-slice register load:    244
+    Number used exclusively as route-thrus:    221
+      Number with same-slice register load:    183
       Number with same-slice carry load:        38
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 2,979 out of  20,000   14%
-  Number of LUT Flip Flop pairs used:        8,879
-    Number with an unused Flip Flop:         2,537 out of   8,879   28%
-    Number with an unused LUT:               1,970 out of   8,879   22%
-    Number of fully used LUT-FF pairs:       4,372 out of   8,879   49%
+  Number of occupied Slices:                 2,985 out of  20,000   14%
+  Number of LUT Flip Flop pairs used:        8,926
+    Number with an unused Flip Flop:         2,504 out of   8,926   28%
+    Number with an unused LUT:               2,077 out of   8,926   23%
+    Number of fully used LUT-FF pairs:       4,345 out of   8,926   48%
     Number of unique control sets:             376
     Number of slice register sites lost
       to control set restrictions:           1,336 out of 160,000    1%
@@ -1836,7 +1836,7 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.29
 
-Peak Memory Usage:  841 MB
+Peak Memory Usage:  847 MB
 Total REAL time to MAP completion:  4 mins 19 secs 
 Total CPU time to MAP completion (all processors):   4 mins 24 secs 
 

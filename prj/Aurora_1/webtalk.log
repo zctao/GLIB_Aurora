@@ -3,8 +3,8 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 Project Information
 --------------------
-ProjectID=c78bb5c963f24a6290fdebd03383cca3
-ProjectIteration=1
+ProjectID=27AF8C77D821480BB92C8DEC5D1B5197
+ProjectIteration=7
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:2 - WebTalk is enabled.
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:4 - C:/Users/ZhengchengTao/Desktop/Aurora_1/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2015-02-19T20:38:58.  For additional details about this file, please refer to the WebTalk help file at D:/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:4 - C:/Users/ZhengchengTao/Documents/GLIB_Aurora/prj/Aurora_1/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2015-03-03T21:44:35.  For additional details about this file, please refer to the WebTalk help file at D:/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
